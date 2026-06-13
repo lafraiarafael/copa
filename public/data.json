@@ -608,7 +608,7 @@
     "rafael": 12
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-13T21:00:00.000Z",
+  "updatedAt": "2026-06-13T22:00:00.000Z",
   "_matches": [
     {
       "id": "A1",
@@ -617,9 +617,7 @@
       "away": "África do Sul",
       "hf": "🇲🇽",
       "af": "🇿🇦",
-      "dt": "11/Jun",
-      "apiHome": "Mexico",
-      "apiAway": "South Africa"
+      "dt": "11/Jun 16h"
     },
     {
       "id": "A2",
@@ -628,9 +626,7 @@
       "away": "Tchéquia",
       "hf": "🇰🇷",
       "af": "🇨🇿",
-      "dt": "11/Jun",
-      "apiHome": "South Korea",
-      "apiAway": "Czech Republic"
+      "dt": "11/Jun 23h"
     },
     {
       "id": "A3",
@@ -639,9 +635,7 @@
       "away": "África do Sul",
       "hf": "🇨🇿",
       "af": "🇿🇦",
-      "dt": "18/Jun",
-      "apiHome": "Czech Republic",
-      "apiAway": "South Africa"
+      "dt": "18/Jun 13h"
     },
     {
       "id": "A4",
@@ -650,20 +644,16 @@
       "away": "Coreia do Sul",
       "hf": "🇲🇽",
       "af": "🇰🇷",
-      "dt": "18/Jun",
-      "apiHome": "Mexico",
-      "apiAway": "South Korea"
+      "dt": "18/Jun 22h"
     },
     {
       "id": "A5",
       "g": "A",
-      "home": "México",
-      "away": "Tchéquia",
-      "hf": "🇲🇽",
-      "af": "🇨🇿",
-      "dt": "24/Jun",
-      "apiHome": "Mexico",
-      "apiAway": "Czech Republic"
+      "home": "Tchéquia",
+      "away": "México",
+      "hf": "🇨🇿",
+      "af": "🇲🇽",
+      "dt": "24/Jun 22h"
     },
     {
       "id": "A6",
@@ -672,9 +662,7 @@
       "away": "Coreia do Sul",
       "hf": "🇿🇦",
       "af": "🇰🇷",
-      "dt": "24/Jun",
-      "apiHome": "South Africa",
-      "apiAway": "South Korea"
+      "dt": "24/Jun 22h"
     },
     {
       "id": "B1",
@@ -683,9 +671,7 @@
       "away": "Bósnia",
       "hf": "🇨🇦",
       "af": "🇧🇦",
-      "dt": "12/Jun",
-      "apiHome": "Canada",
-      "apiAway": "Bosnia and Herzegovina"
+      "dt": "12/Jun 16h"
     },
     {
       "id": "B2",
@@ -694,9 +680,7 @@
       "away": "Suíça",
       "hf": "🇶🇦",
       "af": "🇨🇭",
-      "dt": "13/Jun",
-      "apiHome": "Qatar",
-      "apiAway": "Switzerland"
+      "dt": "13/Jun 16h"
     },
     {
       "id": "B3",
@@ -705,9 +689,7 @@
       "away": "Bósnia",
       "hf": "🇨🇭",
       "af": "🇧🇦",
-      "dt": "19/Jun",
-      "apiHome": "Switzerland",
-      "apiAway": "Bosnia and Herzegovina"
+      "dt": "18/Jun 16h"
     },
     {
       "id": "B4",
@@ -716,9 +698,7 @@
       "away": "Qatar",
       "hf": "🇨🇦",
       "af": "🇶🇦",
-      "dt": "19/Jun",
-      "apiHome": "Canada",
-      "apiAway": "Qatar"
+      "dt": "18/Jun 19h"
     },
     {
       "id": "B5",
@@ -727,9 +707,7 @@
       "away": "Canadá",
       "hf": "🇨🇭",
       "af": "🇨🇦",
-      "dt": "24/Jun",
-      "apiHome": "Switzerland",
-      "apiAway": "Canada"
+      "dt": "24/Jun 16h"
     },
     {
       "id": "B6",
@@ -738,9 +716,7 @@
       "away": "Qatar",
       "hf": "🇧🇦",
       "af": "🇶🇦",
-      "dt": "24/Jun",
-      "apiHome": "Bosnia and Herzegovina",
-      "apiAway": "Qatar"
+      "dt": "24/Jun 16h"
     },
     {
       "id": "C1",
@@ -749,9 +725,7 @@
       "away": "Marrocos",
       "hf": "🇧🇷",
       "af": "🇲🇦",
-      "dt": "13/Jun",
-      "apiHome": "Brazil",
-      "apiAway": "Morocco"
+      "dt": "13/Jun 19h"
     },
     {
       "id": "C2",
@@ -760,9 +734,7 @@
       "away": "Escócia",
       "hf": "🇭🇹",
       "af": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "dt": "13/Jun",
-      "apiHome": "Haiti",
-      "apiAway": "Scotland"
+      "dt": "13/Jun 22h"
     },
     {
       "id": "C3",
@@ -771,9 +743,7 @@
       "away": "Marrocos",
       "hf": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "af": "🇲🇦",
-      "dt": "19/Jun",
-      "apiHome": "Scotland",
-      "apiAway": "Morocco"
+      "dt": "19/Jun 19h"
     },
     {
       "id": "C4",
@@ -782,9 +752,7 @@
       "away": "Haiti",
       "hf": "🇧🇷",
       "af": "🇭🇹",
-      "dt": "19/Jun",
-      "apiHome": "Brazil",
-      "apiAway": "Haiti"
+      "dt": "19/Jun 21h30"
     },
     {
       "id": "C5",
@@ -793,9 +761,7 @@
       "away": "Brasil",
       "hf": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "af": "🇧🇷",
-      "dt": "24/Jun",
-      "apiHome": "Scotland",
-      "apiAway": "Brazil"
+      "dt": "24/Jun 19h"
     },
     {
       "id": "C6",
@@ -804,9 +770,7 @@
       "away": "Haiti",
       "hf": "🇲🇦",
       "af": "🇭🇹",
-      "dt": "24/Jun",
-      "apiHome": "Morocco",
-      "apiAway": "Haiti"
+      "dt": "24/Jun 19h"
     },
     {
       "id": "D1",
@@ -815,9 +779,7 @@
       "away": "Paraguai",
       "hf": "🇺🇸",
       "af": "🇵🇾",
-      "dt": "12/Jun",
-      "apiHome": "USA",
-      "apiAway": "Paraguay"
+      "dt": "12/Jun 22h"
     },
     {
       "id": "D2",
@@ -826,31 +788,25 @@
       "away": "Turquia",
       "hf": "🇦🇺",
       "af": "🇹🇷",
-      "dt": "13/Jun",
-      "apiHome": "Australia",
-      "apiAway": "Turkey"
+      "dt": "14/Jun 01h"
     },
     {
       "id": "D3",
-      "g": "D",
-      "home": "Turquia",
-      "away": "Paraguai",
-      "hf": "🇹🇷",
-      "af": "🇵🇾",
-      "dt": "19/Jun",
-      "apiHome": "Turkey",
-      "apiAway": "Paraguay"
-    },
-    {
-      "id": "D4",
       "g": "D",
       "home": "EUA",
       "away": "Austrália",
       "hf": "🇺🇸",
       "af": "🇦🇺",
-      "dt": "19/Jun",
-      "apiHome": "USA",
-      "apiAway": "Australia"
+      "dt": "19/Jun 16h"
+    },
+    {
+      "id": "D4",
+      "g": "D",
+      "home": "Turquia",
+      "away": "Paraguai",
+      "hf": "🇹🇷",
+      "af": "🇵🇾",
+      "dt": "20/Jun 00h"
     },
     {
       "id": "D5",
@@ -859,9 +815,7 @@
       "away": "EUA",
       "hf": "🇹🇷",
       "af": "🇺🇸",
-      "dt": "25/Jun",
-      "apiHome": "Turkey",
-      "apiAway": "USA"
+      "dt": "25/Jun 23h"
     },
     {
       "id": "D6",
@@ -870,9 +824,7 @@
       "away": "Austrália",
       "hf": "🇵🇾",
       "af": "🇦🇺",
-      "dt": "25/Jun",
-      "apiHome": "Paraguay",
-      "apiAway": "Australia"
+      "dt": "25/Jun 23h"
     },
     {
       "id": "E1",
@@ -881,9 +833,7 @@
       "away": "Curaçao",
       "hf": "🇩🇪",
       "af": "🇨🇼",
-      "dt": "14/Jun",
-      "apiHome": "Germany",
-      "apiAway": "Curacao"
+      "dt": "14/Jun 14h"
     },
     {
       "id": "E2",
@@ -892,9 +842,7 @@
       "away": "Equador",
       "hf": "🇨🇮",
       "af": "🇪🇨",
-      "dt": "14/Jun",
-      "apiHome": "Ivory Coast",
-      "apiAway": "Ecuador"
+      "dt": "14/Jun 20h"
     },
     {
       "id": "E3",
@@ -903,9 +851,7 @@
       "away": "Costa do Marfim",
       "hf": "🇩🇪",
       "af": "🇨🇮",
-      "dt": "20/Jun",
-      "apiHome": "Germany",
-      "apiAway": "Ivory Coast"
+      "dt": "20/Jun 17h"
     },
     {
       "id": "E4",
@@ -914,9 +860,7 @@
       "away": "Curaçao",
       "hf": "🇪🇨",
       "af": "🇨🇼",
-      "dt": "21/Jun",
-      "apiHome": "Ecuador",
-      "apiAway": "Curacao"
+      "dt": "20/Jun 21h"
     },
     {
       "id": "E5",
@@ -925,9 +869,7 @@
       "away": "Alemanha",
       "hf": "🇪🇨",
       "af": "🇩🇪",
-      "dt": "25/Jun",
-      "apiHome": "Ecuador",
-      "apiAway": "Germany"
+      "dt": "25/Jun 17h"
     },
     {
       "id": "E6",
@@ -936,9 +878,7 @@
       "away": "Costa do Marfim",
       "hf": "🇨🇼",
       "af": "🇨🇮",
-      "dt": "25/Jun",
-      "apiHome": "Curacao",
-      "apiAway": "Ivory Coast"
+      "dt": "25/Jun 17h"
     },
     {
       "id": "F1",
@@ -947,9 +887,7 @@
       "away": "Japão",
       "hf": "🇳🇱",
       "af": "🇯🇵",
-      "dt": "14/Jun",
-      "apiHome": "Netherlands",
-      "apiAway": "Japan"
+      "dt": "14/Jun 17h"
     },
     {
       "id": "F2",
@@ -958,9 +896,7 @@
       "away": "Tunísia",
       "hf": "🇸🇪",
       "af": "🇹🇳",
-      "dt": "14/Jun",
-      "apiHome": "Sweden",
-      "apiAway": "Tunisia"
+      "dt": "14/Jun 23h"
     },
     {
       "id": "F3",
@@ -969,9 +905,7 @@
       "away": "Suécia",
       "hf": "🇳🇱",
       "af": "🇸🇪",
-      "dt": "20/Jun",
-      "apiHome": "Netherlands",
-      "apiAway": "Sweden"
+      "dt": "20/Jun 14h"
     },
     {
       "id": "F4",
@@ -980,31 +914,25 @@
       "away": "Japão",
       "hf": "🇹🇳",
       "af": "🇯🇵",
-      "dt": "21/Jun",
-      "apiHome": "Tunisia",
-      "apiAway": "Japan"
+      "dt": "21/Jun 01h"
     },
     {
       "id": "F5",
-      "g": "F",
-      "home": "Tunísia",
-      "away": "Holanda",
-      "hf": "🇹🇳",
-      "af": "🇳🇱",
-      "dt": "25/Jun",
-      "apiHome": "Tunisia",
-      "apiAway": "Netherlands"
-    },
-    {
-      "id": "F6",
       "g": "F",
       "home": "Japão",
       "away": "Suécia",
       "hf": "🇯🇵",
       "af": "🇸🇪",
-      "dt": "25/Jun",
-      "apiHome": "Japan",
-      "apiAway": "Sweden"
+      "dt": "25/Jun 20h"
+    },
+    {
+      "id": "F6",
+      "g": "F",
+      "home": "Tunísia",
+      "away": "Holanda",
+      "hf": "🇹🇳",
+      "af": "🇳🇱",
+      "dt": "25/Jun 20h"
     },
     {
       "id": "G1",
@@ -1013,9 +941,7 @@
       "away": "Egito",
       "hf": "🇧🇪",
       "af": "🇪🇬",
-      "dt": "15/Jun",
-      "apiHome": "Belgium",
-      "apiAway": "Egypt"
+      "dt": "15/Jun 16h"
     },
     {
       "id": "G2",
@@ -1024,9 +950,7 @@
       "away": "Nova Zelândia",
       "hf": "🇮🇷",
       "af": "🇳🇿",
-      "dt": "15/Jun",
-      "apiHome": "Iran",
-      "apiAway": "New Zealand"
+      "dt": "15/Jun 22h"
     },
     {
       "id": "G3",
@@ -1035,9 +959,7 @@
       "away": "Irã",
       "hf": "🇧🇪",
       "af": "🇮🇷",
-      "dt": "21/Jun",
-      "apiHome": "Belgium",
-      "apiAway": "Iran"
+      "dt": "21/Jun 16h"
     },
     {
       "id": "G4",
@@ -1046,9 +968,7 @@
       "away": "Egito",
       "hf": "🇳🇿",
       "af": "🇪🇬",
-      "dt": "21/Jun",
-      "apiHome": "New Zealand",
-      "apiAway": "Egypt"
+      "dt": "21/Jun 22h"
     },
     {
       "id": "G5",
@@ -1057,9 +977,7 @@
       "away": "Irã",
       "hf": "🇪🇬",
       "af": "🇮🇷",
-      "dt": "27/Jun",
-      "apiHome": "Egypt",
-      "apiAway": "Iran"
+      "dt": "27/Jun 00h"
     },
     {
       "id": "G6",
@@ -1068,9 +986,7 @@
       "away": "Bélgica",
       "hf": "🇳🇿",
       "af": "🇧🇪",
-      "dt": "27/Jun",
-      "apiHome": "New Zealand",
-      "apiAway": "Belgium"
+      "dt": "27/Jun 00h"
     },
     {
       "id": "H1",
@@ -1079,9 +995,7 @@
       "away": "Cabo Verde",
       "hf": "🇪🇸",
       "af": "🇨🇻",
-      "dt": "15/Jun",
-      "apiHome": "Spain",
-      "apiAway": "Cape Verde"
+      "dt": "15/Jun 13h"
     },
     {
       "id": "H2",
@@ -1090,9 +1004,7 @@
       "away": "Uruguai",
       "hf": "🇸🇦",
       "af": "🇺🇾",
-      "dt": "15/Jun",
-      "apiHome": "Saudi Arabia",
-      "apiAway": "Uruguay"
+      "dt": "15/Jun 19h"
     },
     {
       "id": "H3",
@@ -1101,9 +1013,7 @@
       "away": "Arábia Saudita",
       "hf": "🇪🇸",
       "af": "🇸🇦",
-      "dt": "21/Jun",
-      "apiHome": "Spain",
-      "apiAway": "Saudi Arabia"
+      "dt": "21/Jun 13h"
     },
     {
       "id": "H4",
@@ -1112,9 +1022,7 @@
       "away": "Cabo Verde",
       "hf": "🇺🇾",
       "af": "🇨🇻",
-      "dt": "21/Jun",
-      "apiHome": "Uruguay",
-      "apiAway": "Cape Verde"
+      "dt": "21/Jun 19h"
     },
     {
       "id": "H5",
@@ -1123,9 +1031,7 @@
       "away": "Espanha",
       "hf": "🇺🇾",
       "af": "🇪🇸",
-      "dt": "26/Jun",
-      "apiHome": "Uruguay",
-      "apiAway": "Spain"
+      "dt": "26/Jun 21h"
     },
     {
       "id": "H6",
@@ -1134,9 +1040,7 @@
       "away": "Arábia Saudita",
       "hf": "🇨🇻",
       "af": "🇸🇦",
-      "dt": "26/Jun",
-      "apiHome": "Cape Verde",
-      "apiAway": "Saudi Arabia"
+      "dt": "26/Jun 21h"
     },
     {
       "id": "I1",
@@ -1145,9 +1049,7 @@
       "away": "Senegal",
       "hf": "🇫🇷",
       "af": "🇸🇳",
-      "dt": "16/Jun",
-      "apiHome": "France",
-      "apiAway": "Senegal"
+      "dt": "16/Jun 16h"
     },
     {
       "id": "I2",
@@ -1156,9 +1058,7 @@
       "away": "Noruega",
       "hf": "🇮🇶",
       "af": "🇳🇴",
-      "dt": "16/Jun",
-      "apiHome": "Iraq",
-      "apiAway": "Norway"
+      "dt": "16/Jun 19h"
     },
     {
       "id": "I3",
@@ -1167,9 +1067,7 @@
       "away": "Iraque",
       "hf": "🇫🇷",
       "af": "🇮🇶",
-      "dt": "22/Jun",
-      "apiHome": "France",
-      "apiAway": "Iraq"
+      "dt": "22/Jun 18h"
     },
     {
       "id": "I4",
@@ -1178,9 +1076,7 @@
       "away": "Senegal",
       "hf": "🇳🇴",
       "af": "🇸🇳",
-      "dt": "22/Jun",
-      "apiHome": "Norway",
-      "apiAway": "Senegal"
+      "dt": "22/Jun 21h"
     },
     {
       "id": "I5",
@@ -1189,9 +1085,7 @@
       "away": "França",
       "hf": "🇳🇴",
       "af": "🇫🇷",
-      "dt": "26/Jun",
-      "apiHome": "Norway",
-      "apiAway": "France"
+      "dt": "26/Jun 16h"
     },
     {
       "id": "I6",
@@ -1200,9 +1094,7 @@
       "away": "Iraque",
       "hf": "🇸🇳",
       "af": "🇮🇶",
-      "dt": "26/Jun",
-      "apiHome": "Senegal",
-      "apiAway": "Iraq"
+      "dt": "26/Jun 16h"
     },
     {
       "id": "J1",
@@ -1211,9 +1103,7 @@
       "away": "Argélia",
       "hf": "🇦🇷",
       "af": "🇩🇿",
-      "dt": "16/Jun",
-      "apiHome": "Argentina",
-      "apiAway": "Algeria"
+      "dt": "16/Jun 22h"
     },
     {
       "id": "J2",
@@ -1222,9 +1112,7 @@
       "away": "Jordânia",
       "hf": "🇦🇹",
       "af": "🇯🇴",
-      "dt": "17/Jun",
-      "apiHome": "Austria",
-      "apiAway": "Jordan"
+      "dt": "17/Jun 01h"
     },
     {
       "id": "J3",
@@ -1233,9 +1121,7 @@
       "away": "Áustria",
       "hf": "🇦🇷",
       "af": "🇦🇹",
-      "dt": "22/Jun",
-      "apiHome": "Argentina",
-      "apiAway": "Austria"
+      "dt": "22/Jun 14h"
     },
     {
       "id": "J4",
@@ -1244,31 +1130,25 @@
       "away": "Argélia",
       "hf": "🇯🇴",
       "af": "🇩🇿",
-      "dt": "23/Jun",
-      "apiHome": "Jordan",
-      "apiAway": "Algeria"
+      "dt": "23/Jun 00h"
     },
     {
       "id": "J5",
-      "g": "J",
-      "home": "Jordânia",
-      "away": "Argentina",
-      "hf": "🇯🇴",
-      "af": "🇦🇷",
-      "dt": "27/Jun",
-      "apiHome": "Jordan",
-      "apiAway": "Argentina"
-    },
-    {
-      "id": "J6",
       "g": "J",
       "home": "Argélia",
       "away": "Áustria",
       "hf": "🇩🇿",
       "af": "🇦🇹",
-      "dt": "27/Jun",
-      "apiHome": "Algeria",
-      "apiAway": "Austria"
+      "dt": "27/Jun 23h"
+    },
+    {
+      "id": "J6",
+      "g": "J",
+      "home": "Jordânia",
+      "away": "Argentina",
+      "hf": "🇯🇴",
+      "af": "🇦🇷",
+      "dt": "27/Jun 23h"
     },
     {
       "id": "K1",
@@ -1277,9 +1157,7 @@
       "away": "Congo RD",
       "hf": "🇵🇹",
       "af": "🇨🇩",
-      "dt": "17/Jun",
-      "apiHome": "Portugal",
-      "apiAway": "DR Congo"
+      "dt": "17/Jun 14h"
     },
     {
       "id": "K2",
@@ -1288,9 +1166,7 @@
       "away": "Colômbia",
       "hf": "🇺🇿",
       "af": "🇨🇴",
-      "dt": "17/Jun",
-      "apiHome": "Uzbekistan",
-      "apiAway": "Colombia"
+      "dt": "17/Jun 23h"
     },
     {
       "id": "K3",
@@ -1299,9 +1175,7 @@
       "away": "Uzbequistão",
       "hf": "🇵🇹",
       "af": "🇺🇿",
-      "dt": "23/Jun",
-      "apiHome": "Portugal",
-      "apiAway": "Uzbekistan"
+      "dt": "23/Jun 14h"
     },
     {
       "id": "K4",
@@ -1310,9 +1184,7 @@
       "away": "Congo RD",
       "hf": "🇨🇴",
       "af": "🇨🇩",
-      "dt": "23/Jun",
-      "apiHome": "Colombia",
-      "apiAway": "DR Congo"
+      "dt": "23/Jun 23h"
     },
     {
       "id": "K5",
@@ -1321,9 +1193,7 @@
       "away": "Portugal",
       "hf": "🇨🇴",
       "af": "🇵🇹",
-      "dt": "27/Jun",
-      "apiHome": "Colombia",
-      "apiAway": "Portugal"
+      "dt": "27/Jun 20h30"
     },
     {
       "id": "K6",
@@ -1332,9 +1202,7 @@
       "away": "Uzbequistão",
       "hf": "🇨🇩",
       "af": "🇺🇿",
-      "dt": "27/Jun",
-      "apiHome": "DR Congo",
-      "apiAway": "Uzbekistan"
+      "dt": "27/Jun 20h30"
     },
     {
       "id": "L1",
@@ -1343,9 +1211,7 @@
       "away": "Croácia",
       "hf": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "af": "🇭🇷",
-      "dt": "17/Jun",
-      "apiHome": "England",
-      "apiAway": "Croatia"
+      "dt": "17/Jun 17h"
     },
     {
       "id": "L2",
@@ -1354,9 +1220,7 @@
       "away": "Panamá",
       "hf": "🇬🇭",
       "af": "🇵🇦",
-      "dt": "17/Jun",
-      "apiHome": "Ghana",
-      "apiAway": "Panama"
+      "dt": "17/Jun 20h"
     },
     {
       "id": "L3",
@@ -1365,9 +1229,7 @@
       "away": "Gana",
       "hf": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "af": "🇬🇭",
-      "dt": "23/Jun",
-      "apiHome": "England",
-      "apiAway": "Ghana"
+      "dt": "23/Jun 17h"
     },
     {
       "id": "L4",
@@ -1376,9 +1238,7 @@
       "away": "Croácia",
       "hf": "🇵🇦",
       "af": "🇭🇷",
-      "dt": "23/Jun",
-      "apiHome": "Panama",
-      "apiAway": "Croatia"
+      "dt": "23/Jun 20h"
     },
     {
       "id": "L5",
@@ -1387,9 +1247,7 @@
       "away": "Inglaterra",
       "hf": "🇵🇦",
       "af": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "dt": "27/Jun",
-      "apiHome": "Panama",
-      "apiAway": "England"
+      "dt": "27/Jun 18h"
     },
     {
       "id": "L6",
@@ -1398,9 +1256,7 @@
       "away": "Gana",
       "hf": "🇭🇷",
       "af": "🇬🇭",
-      "dt": "27/Jun",
-      "apiHome": "Croatia",
-      "apiAway": "Ghana"
+      "dt": "27/Jun 18h"
     }
   ]
 }
