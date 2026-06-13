@@ -1,0 +1,1389 @@
+{
+  "picks": {
+    "renata": {
+      "A1": {
+        "h": 2,
+        "a": 0
+      },
+      "A2": {
+        "h": 2,
+        "a": 1
+      },
+      "A3": {
+        "h": 1,
+        "a": 0
+      },
+      "A4": {
+        "h": 0,
+        "a": 1
+      },
+      "A5": {
+        "h": 2,
+        "a": 0
+      },
+      "A6": {
+        "h": 1,
+        "a": 3
+      },
+      "B1": {
+        "h": 1,
+        "a": 1
+      },
+      "B2": {
+        "h": 1,
+        "a": 2
+      },
+      "B3": {
+        "h": 3,
+        "a": 1
+      },
+      "B4": {
+        "h": 1,
+        "a": 2
+      },
+      "B5": {
+        "h": 3,
+        "a": 0
+      },
+      "B6": {
+        "h": 1,
+        "a": 2
+      },
+      "C1": {
+        "h": 2,
+        "a": 1
+      },
+      "C2": {
+        "h": 1,
+        "a": 2
+      },
+      "C3": {
+        "h": 1,
+        "a": 3
+      },
+      "C4": {
+        "h": 4,
+        "a": 0
+      },
+      "C5": {
+        "h": 0,
+        "a": 4
+      },
+      "C6": {
+        "h": 3,
+        "a": 1
+      },
+      "D1": {
+        "h": 4,
+        "a": 1
+      },
+      "D2": {
+        "h": 1,
+        "a": 2
+      },
+      "D3": {
+        "h": 3,
+        "a": 1
+      },
+      "D4": {
+        "h": 3,
+        "a": 1
+      },
+      "D5": {
+        "h": 1,
+        "a": 2
+      },
+      "D6": {
+        "h": 2,
+        "a": 1
+      },
+      "E1": {
+        "h": 3,
+        "a": 0
+      },
+      "E2": {
+        "h": 0,
+        "a": 4
+      },
+      "E3": {
+        "h": 3,
+        "a": 1
+      },
+      "E4": {
+        "h": 4,
+        "a": 1
+      },
+      "E5": {
+        "h": 1,
+        "a": 2
+      },
+      "E6": {
+        "h": 1,
+        "a": 2
+      },
+      "F1": {
+        "h": 2,
+        "a": 1
+      },
+      "F2": {
+        "h": 1,
+        "a": 3
+      },
+      "F3": {
+        "h": 3,
+        "a": 1
+      },
+      "F4": {
+        "h": 1,
+        "a": 3
+      },
+      "F5": {
+        "h": 0,
+        "a": 2
+      },
+      "F6": {
+        "h": 4,
+        "a": 0
+      },
+      "G1": {
+        "h": 3,
+        "a": 0
+      },
+      "G2": {
+        "h": 2,
+        "a": 0
+      },
+      "G3": {
+        "h": 3,
+        "a": 0
+      },
+      "G4": {
+        "h": 1,
+        "a": 1
+      },
+      "G5": {
+        "h": 1,
+        "a": 2
+      },
+      "G6": {
+        "h": 1,
+        "a": 4
+      },
+      "H1": {
+        "h": 4,
+        "a": 0
+      },
+      "H2": {
+        "h": 1,
+        "a": 3
+      },
+      "H3": {
+        "h": 5,
+        "a": 0
+      },
+      "H4": {
+        "h": 1,
+        "a": 1
+      },
+      "H5": {
+        "h": 2,
+        "a": 3
+      },
+      "H6": {
+        "h": 1,
+        "a": 1
+      },
+      "I1": {
+        "h": 3,
+        "a": 2
+      },
+      "I2": {
+        "h": 1,
+        "a": 4
+      },
+      "I3": {
+        "h": 5,
+        "a": 0
+      },
+      "I4": {
+        "h": 3,
+        "a": 1
+      },
+      "I5": {
+        "h": 1,
+        "a": 1
+      },
+      "I6": {
+        "h": 2,
+        "a": 1
+      },
+      "J1": {
+        "h": 4,
+        "a": 1
+      },
+      "J2": {
+        "h": 1,
+        "a": 1
+      },
+      "J3": {
+        "h": 3,
+        "a": 2
+      },
+      "J4": {
+        "h": 2,
+        "a": 1
+      },
+      "J5": {
+        "h": 1,
+        "a": 4
+      },
+      "J6": {
+        "h": 1,
+        "a": 2
+      },
+      "K1": {
+        "h": 6,
+        "a": 1
+      },
+      "K2": {
+        "h": 1,
+        "a": 4
+      },
+      "K3": {
+        "h": 4,
+        "a": 1
+      },
+      "K4": {
+        "h": 3,
+        "a": 1
+      },
+      "K5": {
+        "h": 1,
+        "a": 3
+      },
+      "K6": {
+        "h": 1,
+        "a": 1
+      },
+      "L1": {
+        "h": 2,
+        "a": 1
+      },
+      "L2": {
+        "h": 0,
+        "a": 1
+      },
+      "L3": {
+        "h": 4,
+        "a": 1
+      },
+      "L4": {
+        "h": 0,
+        "a": 1
+      },
+      "L5": {
+        "h": 1,
+        "a": 2
+      },
+      "L6": {
+        "h": 1,
+        "a": 2
+      }
+    },
+    "rafael": {
+      "A1": {
+        "h": 2,
+        "a": 0
+      },
+      "A2": {
+        "h": 2,
+        "a": 1
+      },
+      "A3": {
+        "h": 0,
+        "a": 1
+      },
+      "A4": {
+        "h": 2,
+        "a": 2
+      },
+      "A5": {
+        "h": 1,
+        "a": 0
+      },
+      "A6": {
+        "h": 1,
+        "a": 4
+      },
+      "B1": {
+        "h": 1,
+        "a": 1
+      },
+      "B2": {
+        "h": 0,
+        "a": 1
+      },
+      "B3": {
+        "h": 2,
+        "a": 1
+      },
+      "B4": {
+        "h": 1,
+        "a": 3
+      },
+      "B5": {
+        "h": 1,
+        "a": 1
+      },
+      "B6": {
+        "h": 0,
+        "a": 0
+      },
+      "C1": {
+        "h": 3,
+        "a": 1
+      },
+      "C2": {
+        "h": 0,
+        "a": 1
+      },
+      "C3": {
+        "h": 1,
+        "a": 2
+      },
+      "C4": {
+        "h": 5,
+        "a": 2
+      },
+      "C5": {
+        "h": 0,
+        "a": 2
+      },
+      "C6": {
+        "h": 4,
+        "a": 1
+      },
+      "D1": {
+        "h": 4,
+        "a": 1
+      },
+      "D2": {
+        "h": 1,
+        "a": 2
+      },
+      "D3": {
+        "h": 2,
+        "a": 1
+      },
+      "D4": {
+        "h": 1,
+        "a": 2
+      },
+      "D5": {
+        "h": 3,
+        "a": 0
+      },
+      "D6": {
+        "h": 1,
+        "a": 1
+      },
+      "E1": {
+        "h": 4,
+        "a": 0
+      },
+      "E2": {
+        "h": 1,
+        "a": 4
+      },
+      "E3": {
+        "h": 3,
+        "a": 0
+      },
+      "E4": {
+        "h": 2,
+        "a": 1
+      },
+      "E5": {
+        "h": 1,
+        "a": 2
+      },
+      "E6": {
+        "h": 1,
+        "a": 2
+      },
+      "F1": {
+        "h": 1,
+        "a": 0
+      },
+      "F2": {
+        "h": 0,
+        "a": 0
+      },
+      "F3": {
+        "h": 4,
+        "a": 1
+      },
+      "F4": {
+        "h": 1,
+        "a": 2
+      },
+      "F5": {
+        "h": 0,
+        "a": 5
+      },
+      "F6": {
+        "h": 3,
+        "a": 1
+      },
+      "G1": {
+        "h": 2,
+        "a": 1
+      },
+      "G2": {
+        "h": 1,
+        "a": 1
+      },
+      "G3": {
+        "h": 3,
+        "a": 2
+      },
+      "G4": {
+        "h": 2,
+        "a": 1
+      },
+      "G5": {
+        "h": 1,
+        "a": 1
+      },
+      "G6": {
+        "h": 0,
+        "a": 1
+      },
+      "H1": {
+        "h": 6,
+        "a": 1
+      },
+      "H2": {
+        "h": 1,
+        "a": 2
+      },
+      "H3": {
+        "h": 3,
+        "a": 2
+      },
+      "H4": {
+        "h": 3,
+        "a": 1
+      },
+      "H5": {
+        "h": 2,
+        "a": 2
+      },
+      "H6": {
+        "h": 0,
+        "a": 1
+      },
+      "I1": {
+        "h": 3,
+        "a": 0
+      },
+      "I2": {
+        "h": 0,
+        "a": 1
+      },
+      "I3": {
+        "h": 2,
+        "a": 1
+      },
+      "I4": {
+        "h": 3,
+        "a": 0
+      },
+      "I5": {
+        "h": 1,
+        "a": 5
+      },
+      "I6": {
+        "h": 0,
+        "a": 1
+      },
+      "J1": {
+        "h": 4,
+        "a": 1
+      },
+      "J2": {
+        "h": 1,
+        "a": 0
+      },
+      "J3": {
+        "h": 3,
+        "a": 0
+      },
+      "J4": {
+        "h": 1,
+        "a": 1
+      },
+      "J5": {
+        "h": 0,
+        "a": 2
+      },
+      "J6": {
+        "h": 1,
+        "a": 0
+      },
+      "K1": {
+        "h": 3,
+        "a": 1
+      },
+      "K2": {
+        "h": 0,
+        "a": 5
+      },
+      "K3": {
+        "h": 3,
+        "a": 1
+      },
+      "K4": {
+        "h": 4,
+        "a": 0
+      },
+      "K5": {
+        "h": 2,
+        "a": 3
+      },
+      "K6": {
+        "h": 0,
+        "a": 0
+      },
+      "L1": {
+        "h": 2,
+        "a": 2
+      },
+      "L2": {
+        "h": 0,
+        "a": 1
+      },
+      "L3": {
+        "h": 3,
+        "a": 1
+      },
+      "L4": {
+        "h": 0,
+        "a": 4
+      },
+      "L5": {
+        "h": 1,
+        "a": 3
+      },
+      "L6": {
+        "h": 2,
+        "a": 1
+      }
+    }
+  },
+  "champion": {
+    "renata": "Brasil",
+    "rafael": "Brasil"
+  },
+  "results": {},
+  "scores": {
+    "renata": 0,
+    "rafael": 0
+  },
+  "actualChampion": null,
+  "updatedAt": "2026-06-13T18:00:00.000Z",
+  "_matches": [
+    {
+      "id": "A1",
+      "g": "A",
+      "home": "México",
+      "away": "África do Sul",
+      "hf": "🇲🇽",
+      "af": "🇿🇦",
+      "dt": "11/Jun",
+      "apiHome": "Mexico",
+      "apiAway": "South Africa"
+    },
+    {
+      "id": "A2",
+      "g": "A",
+      "home": "Coreia do Sul",
+      "away": "Tchéquia",
+      "hf": "🇰🇷",
+      "af": "🇨🇿",
+      "dt": "11/Jun",
+      "apiHome": "South Korea",
+      "apiAway": "Czech Republic"
+    },
+    {
+      "id": "A3",
+      "g": "A",
+      "home": "Tchéquia",
+      "away": "África do Sul",
+      "hf": "🇨🇿",
+      "af": "🇿🇦",
+      "dt": "18/Jun",
+      "apiHome": "Czech Republic",
+      "apiAway": "South Africa"
+    },
+    {
+      "id": "A4",
+      "g": "A",
+      "home": "México",
+      "away": "Coreia do Sul",
+      "hf": "🇲🇽",
+      "af": "🇰🇷",
+      "dt": "18/Jun",
+      "apiHome": "Mexico",
+      "apiAway": "South Korea"
+    },
+    {
+      "id": "A5",
+      "g": "A",
+      "home": "México",
+      "away": "Tchéquia",
+      "hf": "🇲🇽",
+      "af": "🇨🇿",
+      "dt": "24/Jun",
+      "apiHome": "Mexico",
+      "apiAway": "Czech Republic"
+    },
+    {
+      "id": "A6",
+      "g": "A",
+      "home": "África do Sul",
+      "away": "Coreia do Sul",
+      "hf": "🇿🇦",
+      "af": "🇰🇷",
+      "dt": "24/Jun",
+      "apiHome": "South Africa",
+      "apiAway": "South Korea"
+    },
+    {
+      "id": "B1",
+      "g": "B",
+      "home": "Canadá",
+      "away": "Bósnia",
+      "hf": "🇨🇦",
+      "af": "🇧🇦",
+      "dt": "12/Jun",
+      "apiHome": "Canada",
+      "apiAway": "Bosnia and Herzegovina"
+    },
+    {
+      "id": "B2",
+      "g": "B",
+      "home": "Qatar",
+      "away": "Suíça",
+      "hf": "🇶🇦",
+      "af": "🇨🇭",
+      "dt": "13/Jun",
+      "apiHome": "Qatar",
+      "apiAway": "Switzerland"
+    },
+    {
+      "id": "B3",
+      "g": "B",
+      "home": "Suíça",
+      "away": "Bósnia",
+      "hf": "🇨🇭",
+      "af": "🇧🇦",
+      "dt": "19/Jun",
+      "apiHome": "Switzerland",
+      "apiAway": "Bosnia and Herzegovina"
+    },
+    {
+      "id": "B4",
+      "g": "B",
+      "home": "Canadá",
+      "away": "Qatar",
+      "hf": "🇨🇦",
+      "af": "🇶🇦",
+      "dt": "19/Jun",
+      "apiHome": "Canada",
+      "apiAway": "Qatar"
+    },
+    {
+      "id": "B5",
+      "g": "B",
+      "home": "Suíça",
+      "away": "Canadá",
+      "hf": "🇨🇭",
+      "af": "🇨🇦",
+      "dt": "24/Jun",
+      "apiHome": "Switzerland",
+      "apiAway": "Canada"
+    },
+    {
+      "id": "B6",
+      "g": "B",
+      "home": "Bósnia",
+      "away": "Qatar",
+      "hf": "🇧🇦",
+      "af": "🇶🇦",
+      "dt": "24/Jun",
+      "apiHome": "Bosnia and Herzegovina",
+      "apiAway": "Qatar"
+    },
+    {
+      "id": "C1",
+      "g": "C",
+      "home": "Brasil",
+      "away": "Marrocos",
+      "hf": "🇧🇷",
+      "af": "🇲🇦",
+      "dt": "13/Jun",
+      "apiHome": "Brazil",
+      "apiAway": "Morocco"
+    },
+    {
+      "id": "C2",
+      "g": "C",
+      "home": "Haiti",
+      "away": "Escócia",
+      "hf": "🇭🇹",
+      "af": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "dt": "13/Jun",
+      "apiHome": "Haiti",
+      "apiAway": "Scotland"
+    },
+    {
+      "id": "C3",
+      "g": "C",
+      "home": "Escócia",
+      "away": "Marrocos",
+      "hf": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "af": "🇲🇦",
+      "dt": "19/Jun",
+      "apiHome": "Scotland",
+      "apiAway": "Morocco"
+    },
+    {
+      "id": "C4",
+      "g": "C",
+      "home": "Brasil",
+      "away": "Haiti",
+      "hf": "🇧🇷",
+      "af": "🇭🇹",
+      "dt": "19/Jun",
+      "apiHome": "Brazil",
+      "apiAway": "Haiti"
+    },
+    {
+      "id": "C5",
+      "g": "C",
+      "home": "Escócia",
+      "away": "Brasil",
+      "hf": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "af": "🇧🇷",
+      "dt": "24/Jun",
+      "apiHome": "Scotland",
+      "apiAway": "Brazil"
+    },
+    {
+      "id": "C6",
+      "g": "C",
+      "home": "Marrocos",
+      "away": "Haiti",
+      "hf": "🇲🇦",
+      "af": "🇭🇹",
+      "dt": "24/Jun",
+      "apiHome": "Morocco",
+      "apiAway": "Haiti"
+    },
+    {
+      "id": "D1",
+      "g": "D",
+      "home": "EUA",
+      "away": "Paraguai",
+      "hf": "🇺🇸",
+      "af": "🇵🇾",
+      "dt": "12/Jun",
+      "apiHome": "USA",
+      "apiAway": "Paraguay"
+    },
+    {
+      "id": "D2",
+      "g": "D",
+      "home": "Austrália",
+      "away": "Turquia",
+      "hf": "🇦🇺",
+      "af": "🇹🇷",
+      "dt": "13/Jun",
+      "apiHome": "Australia",
+      "apiAway": "Turkey"
+    },
+    {
+      "id": "D3",
+      "g": "D",
+      "home": "Turquia",
+      "away": "Paraguai",
+      "hf": "🇹🇷",
+      "af": "🇵🇾",
+      "dt": "19/Jun",
+      "apiHome": "Turkey",
+      "apiAway": "Paraguay"
+    },
+    {
+      "id": "D4",
+      "g": "D",
+      "home": "EUA",
+      "away": "Austrália",
+      "hf": "🇺🇸",
+      "af": "🇦🇺",
+      "dt": "19/Jun",
+      "apiHome": "USA",
+      "apiAway": "Australia"
+    },
+    {
+      "id": "D5",
+      "g": "D",
+      "home": "Turquia",
+      "away": "EUA",
+      "hf": "🇹🇷",
+      "af": "🇺🇸",
+      "dt": "25/Jun",
+      "apiHome": "Turkey",
+      "apiAway": "USA"
+    },
+    {
+      "id": "D6",
+      "g": "D",
+      "home": "Paraguai",
+      "away": "Austrália",
+      "hf": "🇵🇾",
+      "af": "🇦🇺",
+      "dt": "25/Jun",
+      "apiHome": "Paraguay",
+      "apiAway": "Australia"
+    },
+    {
+      "id": "E1",
+      "g": "E",
+      "home": "Alemanha",
+      "away": "Curaçao",
+      "hf": "🇩🇪",
+      "af": "🇨🇼",
+      "dt": "14/Jun",
+      "apiHome": "Germany",
+      "apiAway": "Curacao"
+    },
+    {
+      "id": "E2",
+      "g": "E",
+      "home": "Costa do Marfim",
+      "away": "Equador",
+      "hf": "🇨🇮",
+      "af": "🇪🇨",
+      "dt": "14/Jun",
+      "apiHome": "Ivory Coast",
+      "apiAway": "Ecuador"
+    },
+    {
+      "id": "E3",
+      "g": "E",
+      "home": "Alemanha",
+      "away": "Costa do Marfim",
+      "hf": "🇩🇪",
+      "af": "🇨🇮",
+      "dt": "20/Jun",
+      "apiHome": "Germany",
+      "apiAway": "Ivory Coast"
+    },
+    {
+      "id": "E4",
+      "g": "E",
+      "home": "Equador",
+      "away": "Curaçao",
+      "hf": "🇪🇨",
+      "af": "🇨🇼",
+      "dt": "21/Jun",
+      "apiHome": "Ecuador",
+      "apiAway": "Curacao"
+    },
+    {
+      "id": "E5",
+      "g": "E",
+      "home": "Equador",
+      "away": "Alemanha",
+      "hf": "🇪🇨",
+      "af": "🇩🇪",
+      "dt": "25/Jun",
+      "apiHome": "Ecuador",
+      "apiAway": "Germany"
+    },
+    {
+      "id": "E6",
+      "g": "E",
+      "home": "Curaçao",
+      "away": "Costa do Marfim",
+      "hf": "🇨🇼",
+      "af": "🇨🇮",
+      "dt": "25/Jun",
+      "apiHome": "Curacao",
+      "apiAway": "Ivory Coast"
+    },
+    {
+      "id": "F1",
+      "g": "F",
+      "home": "Holanda",
+      "away": "Japão",
+      "hf": "🇳🇱",
+      "af": "🇯🇵",
+      "dt": "14/Jun",
+      "apiHome": "Netherlands",
+      "apiAway": "Japan"
+    },
+    {
+      "id": "F2",
+      "g": "F",
+      "home": "Suécia",
+      "away": "Tunísia",
+      "hf": "🇸🇪",
+      "af": "🇹🇳",
+      "dt": "14/Jun",
+      "apiHome": "Sweden",
+      "apiAway": "Tunisia"
+    },
+    {
+      "id": "F3",
+      "g": "F",
+      "home": "Holanda",
+      "away": "Suécia",
+      "hf": "🇳🇱",
+      "af": "🇸🇪",
+      "dt": "20/Jun",
+      "apiHome": "Netherlands",
+      "apiAway": "Sweden"
+    },
+    {
+      "id": "F4",
+      "g": "F",
+      "home": "Tunísia",
+      "away": "Japão",
+      "hf": "🇹🇳",
+      "af": "🇯🇵",
+      "dt": "21/Jun",
+      "apiHome": "Tunisia",
+      "apiAway": "Japan"
+    },
+    {
+      "id": "F5",
+      "g": "F",
+      "home": "Tunísia",
+      "away": "Holanda",
+      "hf": "🇹🇳",
+      "af": "🇳🇱",
+      "dt": "25/Jun",
+      "apiHome": "Tunisia",
+      "apiAway": "Netherlands"
+    },
+    {
+      "id": "F6",
+      "g": "F",
+      "home": "Japão",
+      "away": "Suécia",
+      "hf": "🇯🇵",
+      "af": "🇸🇪",
+      "dt": "25/Jun",
+      "apiHome": "Japan",
+      "apiAway": "Sweden"
+    },
+    {
+      "id": "G1",
+      "g": "G",
+      "home": "Bélgica",
+      "away": "Egito",
+      "hf": "🇧🇪",
+      "af": "🇪🇬",
+      "dt": "15/Jun",
+      "apiHome": "Belgium",
+      "apiAway": "Egypt"
+    },
+    {
+      "id": "G2",
+      "g": "G",
+      "home": "Irã",
+      "away": "Nova Zelândia",
+      "hf": "🇮🇷",
+      "af": "🇳🇿",
+      "dt": "15/Jun",
+      "apiHome": "Iran",
+      "apiAway": "New Zealand"
+    },
+    {
+      "id": "G3",
+      "g": "G",
+      "home": "Bélgica",
+      "away": "Irã",
+      "hf": "🇧🇪",
+      "af": "🇮🇷",
+      "dt": "21/Jun",
+      "apiHome": "Belgium",
+      "apiAway": "Iran"
+    },
+    {
+      "id": "G4",
+      "g": "G",
+      "home": "Nova Zelândia",
+      "away": "Egito",
+      "hf": "🇳🇿",
+      "af": "🇪🇬",
+      "dt": "21/Jun",
+      "apiHome": "New Zealand",
+      "apiAway": "Egypt"
+    },
+    {
+      "id": "G5",
+      "g": "G",
+      "home": "Egito",
+      "away": "Irã",
+      "hf": "🇪🇬",
+      "af": "🇮🇷",
+      "dt": "27/Jun",
+      "apiHome": "Egypt",
+      "apiAway": "Iran"
+    },
+    {
+      "id": "G6",
+      "g": "G",
+      "home": "Nova Zelândia",
+      "away": "Bélgica",
+      "hf": "🇳🇿",
+      "af": "🇧🇪",
+      "dt": "27/Jun",
+      "apiHome": "New Zealand",
+      "apiAway": "Belgium"
+    },
+    {
+      "id": "H1",
+      "g": "H",
+      "home": "Espanha",
+      "away": "Cabo Verde",
+      "hf": "🇪🇸",
+      "af": "🇨🇻",
+      "dt": "15/Jun",
+      "apiHome": "Spain",
+      "apiAway": "Cape Verde"
+    },
+    {
+      "id": "H2",
+      "g": "H",
+      "home": "Arábia Saudita",
+      "away": "Uruguai",
+      "hf": "🇸🇦",
+      "af": "🇺🇾",
+      "dt": "15/Jun",
+      "apiHome": "Saudi Arabia",
+      "apiAway": "Uruguay"
+    },
+    {
+      "id": "H3",
+      "g": "H",
+      "home": "Espanha",
+      "away": "Arábia Saudita",
+      "hf": "🇪🇸",
+      "af": "🇸🇦",
+      "dt": "21/Jun",
+      "apiHome": "Spain",
+      "apiAway": "Saudi Arabia"
+    },
+    {
+      "id": "H4",
+      "g": "H",
+      "home": "Uruguai",
+      "away": "Cabo Verde",
+      "hf": "🇺🇾",
+      "af": "🇨🇻",
+      "dt": "21/Jun",
+      "apiHome": "Uruguay",
+      "apiAway": "Cape Verde"
+    },
+    {
+      "id": "H5",
+      "g": "H",
+      "home": "Uruguai",
+      "away": "Espanha",
+      "hf": "🇺🇾",
+      "af": "🇪🇸",
+      "dt": "26/Jun",
+      "apiHome": "Uruguay",
+      "apiAway": "Spain"
+    },
+    {
+      "id": "H6",
+      "g": "H",
+      "home": "Cabo Verde",
+      "away": "Arábia Saudita",
+      "hf": "🇨🇻",
+      "af": "🇸🇦",
+      "dt": "26/Jun",
+      "apiHome": "Cape Verde",
+      "apiAway": "Saudi Arabia"
+    },
+    {
+      "id": "I1",
+      "g": "I",
+      "home": "França",
+      "away": "Senegal",
+      "hf": "🇫🇷",
+      "af": "🇸🇳",
+      "dt": "16/Jun",
+      "apiHome": "France",
+      "apiAway": "Senegal"
+    },
+    {
+      "id": "I2",
+      "g": "I",
+      "home": "Iraque",
+      "away": "Noruega",
+      "hf": "🇮🇶",
+      "af": "🇳🇴",
+      "dt": "16/Jun",
+      "apiHome": "Iraq",
+      "apiAway": "Norway"
+    },
+    {
+      "id": "I3",
+      "g": "I",
+      "home": "França",
+      "away": "Iraque",
+      "hf": "🇫🇷",
+      "af": "🇮🇶",
+      "dt": "22/Jun",
+      "apiHome": "France",
+      "apiAway": "Iraq"
+    },
+    {
+      "id": "I4",
+      "g": "I",
+      "home": "Noruega",
+      "away": "Senegal",
+      "hf": "🇳🇴",
+      "af": "🇸🇳",
+      "dt": "22/Jun",
+      "apiHome": "Norway",
+      "apiAway": "Senegal"
+    },
+    {
+      "id": "I5",
+      "g": "I",
+      "home": "Noruega",
+      "away": "França",
+      "hf": "🇳🇴",
+      "af": "🇫🇷",
+      "dt": "26/Jun",
+      "apiHome": "Norway",
+      "apiAway": "France"
+    },
+    {
+      "id": "I6",
+      "g": "I",
+      "home": "Senegal",
+      "away": "Iraque",
+      "hf": "🇸🇳",
+      "af": "🇮🇶",
+      "dt": "26/Jun",
+      "apiHome": "Senegal",
+      "apiAway": "Iraq"
+    },
+    {
+      "id": "J1",
+      "g": "J",
+      "home": "Argentina",
+      "away": "Argélia",
+      "hf": "🇦🇷",
+      "af": "🇩🇿",
+      "dt": "16/Jun",
+      "apiHome": "Argentina",
+      "apiAway": "Algeria"
+    },
+    {
+      "id": "J2",
+      "g": "J",
+      "home": "Áustria",
+      "away": "Jordânia",
+      "hf": "🇦🇹",
+      "af": "🇯🇴",
+      "dt": "17/Jun",
+      "apiHome": "Austria",
+      "apiAway": "Jordan"
+    },
+    {
+      "id": "J3",
+      "g": "J",
+      "home": "Argentina",
+      "away": "Áustria",
+      "hf": "🇦🇷",
+      "af": "🇦🇹",
+      "dt": "22/Jun",
+      "apiHome": "Argentina",
+      "apiAway": "Austria"
+    },
+    {
+      "id": "J4",
+      "g": "J",
+      "home": "Jordânia",
+      "away": "Argélia",
+      "hf": "🇯🇴",
+      "af": "🇩🇿",
+      "dt": "23/Jun",
+      "apiHome": "Jordan",
+      "apiAway": "Algeria"
+    },
+    {
+      "id": "J5",
+      "g": "J",
+      "home": "Jordânia",
+      "away": "Argentina",
+      "hf": "🇯🇴",
+      "af": "🇦🇷",
+      "dt": "27/Jun",
+      "apiHome": "Jordan",
+      "apiAway": "Argentina"
+    },
+    {
+      "id": "J6",
+      "g": "J",
+      "home": "Argélia",
+      "away": "Áustria",
+      "hf": "🇩🇿",
+      "af": "🇦🇹",
+      "dt": "27/Jun",
+      "apiHome": "Algeria",
+      "apiAway": "Austria"
+    },
+    {
+      "id": "K1",
+      "g": "K",
+      "home": "Portugal",
+      "away": "Congo RD",
+      "hf": "🇵🇹",
+      "af": "🇨🇩",
+      "dt": "17/Jun",
+      "apiHome": "Portugal",
+      "apiAway": "DR Congo"
+    },
+    {
+      "id": "K2",
+      "g": "K",
+      "home": "Uzbequistão",
+      "away": "Colômbia",
+      "hf": "🇺🇿",
+      "af": "🇨🇴",
+      "dt": "17/Jun",
+      "apiHome": "Uzbekistan",
+      "apiAway": "Colombia"
+    },
+    {
+      "id": "K3",
+      "g": "K",
+      "home": "Portugal",
+      "away": "Uzbequistão",
+      "hf": "🇵🇹",
+      "af": "🇺🇿",
+      "dt": "23/Jun",
+      "apiHome": "Portugal",
+      "apiAway": "Uzbekistan"
+    },
+    {
+      "id": "K4",
+      "g": "K",
+      "home": "Colômbia",
+      "away": "Congo RD",
+      "hf": "🇨🇴",
+      "af": "🇨🇩",
+      "dt": "23/Jun",
+      "apiHome": "Colombia",
+      "apiAway": "DR Congo"
+    },
+    {
+      "id": "K5",
+      "g": "K",
+      "home": "Colômbia",
+      "away": "Portugal",
+      "hf": "🇨🇴",
+      "af": "🇵🇹",
+      "dt": "27/Jun",
+      "apiHome": "Colombia",
+      "apiAway": "Portugal"
+    },
+    {
+      "id": "K6",
+      "g": "K",
+      "home": "Congo RD",
+      "away": "Uzbequistão",
+      "hf": "🇨🇩",
+      "af": "🇺🇿",
+      "dt": "27/Jun",
+      "apiHome": "DR Congo",
+      "apiAway": "Uzbekistan"
+    },
+    {
+      "id": "L1",
+      "g": "L",
+      "home": "Inglaterra",
+      "away": "Croácia",
+      "hf": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "af": "🇭🇷",
+      "dt": "17/Jun",
+      "apiHome": "England",
+      "apiAway": "Croatia"
+    },
+    {
+      "id": "L2",
+      "g": "L",
+      "home": "Gana",
+      "away": "Panamá",
+      "hf": "🇬🇭",
+      "af": "🇵🇦",
+      "dt": "17/Jun",
+      "apiHome": "Ghana",
+      "apiAway": "Panama"
+    },
+    {
+      "id": "L3",
+      "g": "L",
+      "home": "Inglaterra",
+      "away": "Gana",
+      "hf": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "af": "🇬🇭",
+      "dt": "23/Jun",
+      "apiHome": "England",
+      "apiAway": "Ghana"
+    },
+    {
+      "id": "L4",
+      "g": "L",
+      "home": "Panamá",
+      "away": "Croácia",
+      "hf": "🇵🇦",
+      "af": "🇭🇷",
+      "dt": "23/Jun",
+      "apiHome": "Panama",
+      "apiAway": "Croatia"
+    },
+    {
+      "id": "L5",
+      "g": "L",
+      "home": "Panamá",
+      "away": "Inglaterra",
+      "hf": "🇵🇦",
+      "af": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "dt": "27/Jun",
+      "apiHome": "Panama",
+      "apiAway": "England"
+    },
+    {
+      "id": "L6",
+      "g": "L",
+      "home": "Croácia",
+      "away": "Gana",
+      "hf": "🇭🇷",
+      "af": "🇬🇭",
+      "dt": "27/Jun",
+      "apiHome": "Croatia",
+      "apiAway": "Ghana"
+    }
+  ]
+}

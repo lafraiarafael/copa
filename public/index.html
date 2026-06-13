@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bolão Copa 2026 🏆</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap');
+:root{--navy:#0a1628;--n2:#0f2040;--n3:#162d55;--card:#1a3560;--c2:#1e3d6a;--gold:#FFD700;--green:#00c853;--blue:#4fc3f7;--muted:#7a94ba;--text:#e8edf5}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:var(--navy);color:var(--text);min-height:100vh}
+.hero{background:linear-gradient(160deg,var(--n2),var(--n3));border-bottom:2px solid var(--gold);padding:32px 20px 24px;text-align:center}
+.trophy{font-size:4rem;animation:glow 2.5s ease-in-out infinite}
+@keyframes glow{0%,100%{filter:drop-shadow(0 0 10px rgba(255,215,0,.4))}50%{filter:drop-shadow(0 0 30px rgba(255,215,0,.9))}}
+.ht{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;letter-spacing:5px;color:var(--gold);margin-top:6px}
+.hs{font-size:.72rem;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
+.upd{font-size:.68rem;color:var(--muted);margin-top:10px}
+/* scores */
+.sb{display:flex;gap:12px;padding:22px 16px 0;justify-content:center}
+.sc{flex:1;max-width:180px;background:var(--card);border:2px solid var(--c2);border-radius:16px;padding:18px 14px;text-align:center;transition:border-color .3s}
+.sc.lead{border-color:var(--gold)}
+.sav{font-size:2.2rem}
+.snm{font-size:.72rem;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:5px}
+.spt{font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--gold);line-height:1;margin-top:3px}
+.slb{font-size:.62rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+.scp{margin-top:9px;font-size:.8rem;font-weight:600}
+/* legend */
+.leg{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px 0}
+.li{display:flex;align-items:center;gap:5px;font-size:.7rem;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%}
+/* groups */
+.sec{padding:18px 14px 0}
+.gc{background:var(--card);border:1px solid var(--c2);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.gh{background:var(--n3);padding:8px 14px;font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold)}
+.mr{display:flex;align-items:center;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.05);gap:6px;font-size:.8rem}
+.mr:last-child{border-bottom:none}
+.tl{flex:1;display:flex;align-items:center;gap:5px}
+.tr{flex:1;display:flex;align-items:center;gap:5px;justify-content:flex-end}
+.fl{font-size:1.15rem}
+.sc2{text-align:center;min-width:90px}
+.rs{font-weight:800;font-size:.95rem;letter-spacing:1px}
+.rs.pend{color:var(--muted);font-size:.72rem}
+.pb{display:flex;gap:5px;justify-content:center;font-size:.67rem;color:var(--muted);margin-top:2px}
+.pk{padding:2px 6px;border-radius:5px;font-weight:700}
+.pe{background:rgba(0,200,83,.2);color:var(--green)}
+.pr{background:rgba(79,195,247,.15);color:var(--blue)}
+.pw{background:rgba(255,255,255,.05);color:var(--muted)}
+.loading{text-align:center;padding:60px 20px;color:var(--muted)}
+.spin{display:inline-block;width:30px;height:30px;border:3px solid #1e3d6a;border-top-color:var(--gold);border-radius:50%;animation:sp .8s linear infinite;margin-bottom:12px}
+@keyframes sp{to{transform:rotate(360deg)}}
+footer{text-align:center;padding:36px 20px 24px;font-size:.68rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="trophy">🏆</div>
+  <div class="ht">BOLÃO COPA 2026</div>
+  <div class="hs">Renata × Rafael</div>
+  <div class="upd" id="upd">Carregando...</div>
+</div>
+<div id="app"><div class="loading"><div class="spin"></div><br>Carregando placar...</div></div>
+<script>
+const JOGOS=[
+  {id:"A1",g:"A",home:"México",away:"Tchéquia",hf:"🇲🇽",af:"🇨🇿",dt:"11 Jun"},
+  {id:"A2",g:"A",home:"Coreia do Sul",away:"África do Sul",hf:"🇰🇷",af:"🇿🇦",dt:"11 Jun"},
+  {id:"A3",g:"A",home:"México",away:"África do Sul",hf:"🇲🇽",af:"🇿🇦",dt:"15 Jun"},
+  {id:"A4",g:"A",home:"Coreia do Sul",away:"Tchéquia",hf:"🇰🇷",af:"🇨🇿",dt:"15 Jun"},
+  {id:"A5",g:"A",home:"México",away:"Coreia do Sul",hf:"🇲🇽",af:"🇰🇷",dt:"19 Jun"},
+  {id:"A6",g:"A",home:"Tchéquia",away:"África do Sul",hf:"🇨🇿",af:"🇿🇦",dt:"19 Jun"},
+  {id:"B1",g:"B",home:"Canadá",away:"Qatar",hf:"🇨🇦",af:"🇶🇦",dt:"12 Jun"},
+  {id:"B2",g:"B",home:"Bósnia",away:"Suíça",hf:"🇧🇦",af:"🇨🇭",dt:"12 Jun"},
+  {id:"B3",g:"B",home:"Canadá",away:"Bósnia",hf:"🇨🇦",af:"🇧🇦",dt:"16 Jun"},
+  {id:"B4",g:"B",home:"Suíça",away:"Qatar",hf:"🇨🇭",af:"🇶🇦",dt:"16 Jun"},
+  {id:"B5",g:"B",home:"Suíça",away:"Canadá",hf:"🇨🇭",af:"🇨🇦",dt:"20 Jun"},
+  {id:"B6",g:"B",home:"Qatar",away:"Bósnia",hf:"🇶🇦",af:"🇧🇦",dt:"20 Jun"},
+  {id:"C1",g:"C",home:"Brasil",away:"Haiti",hf:"🇧🇷",af:"🇭🇹",dt:"12 Jun"},
+  {id:"C2",g:"C",home:"Marrocos",away:"Escócia",hf:"🇲🇦",af:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",dt:"12 Jun"},
+  {id:"C3",g:"C",home:"Brasil",away:"Marrocos",hf:"🇧🇷",af:"🇲🇦",dt:"16 Jun"},
+  {id:"C4",g:"C",home:"Escócia",away:"Haiti",hf:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",af:"🇭🇹",dt:"16 Jun"},
+  {id:"C5",g:"C",home:"Brasil",away:"Escócia",hf:"🇧🇷",af:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",dt:"20 Jun"},
+  {id:"C6",g:"C",home:"Marrocos",away:"Haiti",hf:"🇲🇦",af:"🇭🇹",dt:"20 Jun"},
+  {id:"D1",g:"D",home:"EUA",away:"Turquia",hf:"🇺🇸",af:"🇹🇷",dt:"13 Jun"},
+  {id:"D2",g:"D",home:"Austrália",away:"Paraguai",hf:"🇦🇺",af:"🇵🇾",dt:"13 Jun"},
+  {id:"D3",g:"D",home:"EUA",away:"Austrália",hf:"🇺🇸",af:"🇦🇺",dt:"17 Jun"},
+  {id:"D4",g:"D",home:"Paraguai",away:"Turquia",hf:"🇵🇾",af:"🇹🇷",dt:"17 Jun"},
+  {id:"D5",g:"D",home:"EUA",away:"Paraguai",hf:"🇺🇸",af:"🇵🇾",dt:"21 Jun"},
+  {id:"D6",g:"D",home:"Turquia",away:"Austrália",hf:"🇹🇷",af:"🇦🇺",dt:"21 Jun"},
+  {id:"E1",g:"E",home:"Alemanha",away:"Equador",hf:"🇩🇪",af:"🇪🇨",dt:"13 Jun"},
+  {id:"E2",g:"E",home:"Curaçao",away:"Costa do Marfim",hf:"🇨🇼",af:"🇨🇮",dt:"13 Jun"},
+  {id:"E3",g:"E",home:"Alemanha",away:"Curaçao",hf:"🇩🇪",af:"🇨🇼",dt:"17 Jun"},
+  {id:"E4",g:"E",home:"Costa do Marfim",away:"Equador",hf:"🇨🇮",af:"🇪🇨",dt:"17 Jun"},
+  {id:"E5",g:"E",home:"Alemanha",away:"Costa do Marfim",hf:"🇩🇪",af:"🇨🇮",dt:"21 Jun"},
+  {id:"E6",g:"E",home:"Equador",away:"Curaçao",hf:"🇪🇨",af:"🇨🇼",dt:"21 Jun"},
+  {id:"F1",g:"F",home:"Holanda",away:"Tunísia",hf:"🇳🇱",af:"🇹🇳",dt:"14 Jun"},
+  {id:"F2",g:"F",home:"Japão",away:"Suécia",hf:"🇯🇵",af:"🇸🇪",dt:"14 Jun"},
+  {id:"F3",g:"F",home:"Holanda",away:"Japão",hf:"🇳🇱",af:"🇯🇵",dt:"18 Jun"},
+  {id:"F4",g:"F",home:"Suécia",away:"Tunísia",hf:"🇸🇪",af:"🇹🇳",dt:"18 Jun"},
+  {id:"F5",g:"F",home:"Holanda",away:"Suécia",hf:"🇳🇱",af:"🇸🇪",dt:"22 Jun"},
+  {id:"F6",g:"F",home:"Tunísia",away:"Japão",hf:"🇹🇳",af:"🇯🇵",dt:"22 Jun"},
+  {id:"G1",g:"G",home:"Bélgica",away:"Irã",hf:"🇧🇪",af:"🇮🇷",dt:"14 Jun"},
+  {id:"G2",g:"G",home:"Egito",away:"Nova Zelândia",hf:"🇪🇬",af:"🇳🇿",dt:"14 Jun"},
+  {id:"G3",g:"G",home:"Bélgica",away:"Egito",hf:"🇧🇪",af:"🇪🇬",dt:"18 Jun"},
+  {id:"G4",g:"G",home:"Nova Zelândia",away:"Irã",hf:"🇳🇿",af:"🇮🇷",dt:"18 Jun"},
+  {id:"G5",g:"G",home:"Bélgica",away:"Nova Zelândia",hf:"🇧🇪",af:"🇳🇿",dt:"22 Jun"},
+  {id:"G6",g:"G",home:"Irã",away:"Egito",hf:"🇮🇷",af:"🇪🇬",dt:"22 Jun"},
+  {id:"H1",g:"H",home:"Espanha",away:"Arábia Saudita",hf:"🇪🇸",af:"🇸🇦",dt:"15 Jun"},
+  {id:"H2",g:"H",home:"Cabo Verde",away:"Uruguai",hf:"🇨🇻",af:"🇺🇾",dt:"15 Jun"},
+  {id:"H3",g:"H",home:"Espanha",away:"Cabo Verde",hf:"🇪🇸",af:"🇨🇻",dt:"19 Jun"},
+  {id:"H4",g:"H",home:"Uruguai",away:"Arábia Saudita",hf:"🇺🇾",af:"🇸🇦",dt:"19 Jun"},
+  {id:"H5",g:"H",home:"Espanha",away:"Uruguai",hf:"🇪🇸",af:"🇺🇾",dt:"23 Jun"},
+  {id:"H6",g:"H",home:"Arábia Saudita",away:"Cabo Verde",hf:"🇸🇦",af:"🇨🇻",dt:"23 Jun"},
+  {id:"I1",g:"I",home:"França",away:"Iraque",hf:"🇫🇷",af:"🇮🇶",dt:"15 Jun"},
+  {id:"I2",g:"I",home:"Senegal",away:"Noruega",hf:"🇸🇳",af:"🇳🇴",dt:"15 Jun"},
+  {id:"I3",g:"I",home:"França",away:"Senegal",hf:"🇫🇷",af:"🇸🇳",dt:"19 Jun"},
+  {id:"I4",g:"I",home:"Noruega",away:"Iraque",hf:"🇳🇴",af:"🇮🇶",dt:"19 Jun"},
+  {id:"I5",g:"I",home:"França",away:"Noruega",hf:"🇫🇷",af:"🇳🇴",dt:"23 Jun"},
+  {id:"I6",g:"I",home:"Iraque",away:"Senegal",hf:"🇮🇶",af:"🇸🇳",dt:"23 Jun"},
+  {id:"J1",g:"J",home:"Argentina",away:"Argélia",hf:"🇦🇷",af:"🇩🇿",dt:"16 Jun"},
+  {id:"J2",g:"J",home:"Áustria",away:"Jordânia",hf:"🇦🇹",af:"🇯🇴",dt:"16 Jun"},
+  {id:"J3",g:"J",home:"Argentina",away:"Áustria",hf:"🇦🇷",af:"🇦🇹",dt:"20 Jun"},
+  {id:"J4",g:"J",home:"Jordânia",away:"Argélia",hf:"🇯🇴",af:"🇩🇿",dt:"20 Jun"},
+  {id:"J5",g:"J",home:"Argentina",away:"Jordânia",hf:"🇦🇷",af:"🇯🇴",dt:"24 Jun"},
+  {id:"J6",g:"J",home:"Argélia",away:"Áustria",hf:"🇩🇿",af:"🇦🇹",dt:"24 Jun"},
+  {id:"K1",g:"K",home:"Portugal",away:"Uzbequistão",hf:"🇵🇹",af:"🇺🇿",dt:"16 Jun"},
+  {id:"K2",g:"K",home:"Congo RD",away:"Colômbia",hf:"🇨🇩",af:"🇨🇴",dt:"16 Jun"},
+  {id:"K3",g:"K",home:"Portugal",away:"Congo RD",hf:"🇵🇹",af:"🇨🇩",dt:"20 Jun"},
+  {id:"K4",g:"K",home:"Colômbia",away:"Uzbequistão",hf:"🇨🇴",af:"🇺🇿",dt:"20 Jun"},
+  {id:"K5",g:"K",home:"Portugal",away:"Colômbia",hf:"🇵🇹",af:"🇨🇴",dt:"24 Jun"},
+  {id:"K6",g:"K",home:"Uzbequistão",away:"Congo RD",hf:"🇺🇿",af:"🇨🇩",dt:"24 Jun"},
+  {id:"L1",g:"L",home:"Inglaterra",away:"Gana",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇬🇭",dt:"17 Jun"},
+  {id:"L2",g:"L",home:"Croácia",away:"Panamá",hf:"🇭🇷",af:"🇵🇦",dt:"17 Jun"},
+  {id:"L3",g:"L",home:"Inglaterra",away:"Croácia",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇭🇷",dt:"21 Jun"},
+  {id:"L4",g:"L",home:"Panamá",away:"Gana",hf:"🇵🇦",af:"🇬🇭",dt:"21 Jun"},
+  {id:"L5",g:"L",home:"Inglaterra",away:"Panamá",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇵🇦",dt:"25 Jun"},
+  {id:"L6",g:"L",home:"Gana",away:"Croácia",hf:"🇬🇭",af:"🇭🇷",dt:"25 Jun"},
+];
+const GS=["A","B","C","D","E","F","G","H","I","J","K","L"];
+function oc(h,a){return h>a?"H":h<a?"A":"D"}
+function pcls(pk,res){
+  if(!res||!pk||pk.h==null)return"pw";
+  if(pk.h===res.h&&pk.a===res.a)return"pe";
+  if(oc(pk.h,pk.a)===oc(res.h,res.a))return"pr";
+  return"pw";
+}
+async function init(){
+  let data;
+  try{const r=await fetch("/api/data");data=await r.json();}catch{document.getElementById("app").innerHTML='<div class="loading">Erro ao carregar.</div>';return;}
+  const{picks={},champion={},results={},scores={},updatedAt}=data;
+  if(updatedAt){
+    const d=new Date(updatedAt);
+    document.getElementById("upd").textContent="Atualizado: "+d.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"});
+  }
+  const rp=scores.renata||0,mp=scores.rafael||0;
+  let html=`<div class="sb">
+    <div class="sc ${rp>=mp?"lead":""}">
+      <div class="sav">👩</div><div class="snm">Renata</div>
+      <div class="spt">${rp}</div><div class="slb">pontos</div>
+      ${champion.renata?`<div class="scp">🏆 ${champion.renata}</div>`:""}
+    </div>
+    <div style="display:flex;align-items:center;font-size:1.3rem;color:var(--muted);font-weight:800">VS</div>
+    <div class="sc ${mp>rp?"lead":""}">
+      <div class="sav">👤</div><div class="snm">Rafael</div>
+      <div class="spt">${mp}</div><div class="slb">pontos</div>
+      ${champion.rafael?`<div class="scp">🏆 ${champion.rafael}</div>`:""}
+    </div>
+  </div>
+  <div class="leg">
+    <div class="li"><div class="dot" style="background:var(--green)"></div> Placar exato (+3)</div>
+    <div class="li"><div class="dot" style="background:var(--blue)"></div> Resultado (+1)</div>
+    <div class="li"><div class="dot" style="background:#2a4a7a"></div> Errou</div>
+  </div>`;
+  GS.forEach(g=>{
+    html+=`<div class="sec"><div class="gc"><div class="gh">⚽ Grupo ${g}</div>`;
+    JOGOS.filter(j=>j.g===g).forEach(m=>{
+      const res=results[m.id];
+      const rk=(picks.renata||{})[m.id];
+      const mk=(picks.rafael||{})[m.id];
+      html+=`<div class="mr">
+        <div class="tl"><span class="fl">${m.hf}</span><span>${m.home}</span></div>
+        <div class="sc2">
+          <div class="rs ${res?"":"pend"}">${res?`${res.h} – ${res.a}`:m.dt}</div>
+          <div class="pb">
+            <span class="pk ${pcls(rk,res)}">${rk&&rk.h!=null?`R:${rk.h}×${rk.a}`:"R:—"}</span>
+            <span class="pk ${pcls(mk,res)}">${mk&&mk.h!=null?`Eu:${mk.h}×${mk.a}`:"Eu:—"}</span>
+          </div>
+        </div>
+        <div class="tr"><span>${m.away}</span><span class="fl">${m.af}</span></div>
+      </div>`;
+    });
+    html+=`</div></div>`;
+  });
+  html+=`<footer>Bolão Copa 2026 · Renata × Rafael · Atualizado diariamente às 08h UTC</footer>`;
+  document.getElementById("app").innerHTML=html;
+}
+init();
+</script>
+</body>
+</html>
