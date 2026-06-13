@@ -585,13 +585,30 @@
     "renata": "Brasil",
     "rafael": "Brasil"
   },
-  "results": {},
+  "results": {
+    "A1": {
+      "h": 2,
+      "a": 0
+    },
+    "A2": {
+      "h": 2,
+      "a": 1
+    },
+    "B1": {
+      "h": 1,
+      "a": 1
+    },
+    "D1": {
+      "h": 4,
+      "a": 1
+    }
+  },
   "scores": {
-    "renata": 0,
-    "rafael": 0
+    "renata": 12,
+    "rafael": 12
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-13T18:00:00.000Z",
+  "updatedAt": "2026-06-13T21:00:00.000Z",
   "_matches": [
     {
       "id": "A1",
