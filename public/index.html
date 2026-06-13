@@ -15,20 +15,16 @@ body{font-family:'Inter',sans-serif;background:var(--navy);color:var(--text);min
 .ht{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;letter-spacing:5px;color:var(--gold);margin-top:6px}
 .hs{font-size:.72rem;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
 .upd{font-size:.68rem;color:var(--muted);margin-top:10px}
-/* scores */
 .sb{display:flex;gap:12px;padding:22px 16px 0;justify-content:center}
 .sc{flex:1;max-width:180px;background:var(--card);border:2px solid var(--c2);border-radius:16px;padding:18px 14px;text-align:center;transition:border-color .3s}
 .sc.lead{border-color:var(--gold)}
-.sav{font-size:2.2rem}
-.snm{font-size:.72rem;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:5px}
+.sav{font-size:2.2rem}.snm{font-size:.72rem;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:5px}
 .spt{font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--gold);line-height:1;margin-top:3px}
 .slb{font-size:.62rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
 .scp{margin-top:9px;font-size:.8rem;font-weight:600}
-/* legend */
 .leg{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px 0}
 .li{display:flex;align-items:center;gap:5px;font-size:.7rem;color:var(--muted)}
 .dot{width:8px;height:8px;border-radius:50%}
-/* groups */
 .sec{padding:18px 14px 0}
 .gc{background:var(--card);border:1px solid var(--c2);border-radius:12px;margin-bottom:10px;overflow:hidden}
 .gh{background:var(--n3);padding:8px 14px;font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold)}
@@ -36,8 +32,7 @@ body{font-family:'Inter',sans-serif;background:var(--navy);color:var(--text);min
 .mr:last-child{border-bottom:none}
 .tl{flex:1;display:flex;align-items:center;gap:5px}
 .tr{flex:1;display:flex;align-items:center;gap:5px;justify-content:flex-end}
-.fl{font-size:1.15rem}
-.sc2{text-align:center;min-width:90px}
+.fl{font-size:1.15rem}.sc2{text-align:center;min-width:90px}
 .rs{font-weight:800;font-size:.95rem;letter-spacing:1px}
 .rs.pend{color:var(--muted);font-size:.72rem}
 .pb{display:flex;gap:5px;justify-content:center;font-size:.67rem;color:var(--muted);margin-top:2px}
@@ -60,79 +55,92 @@ footer{text-align:center;padding:36px 20px 24px;font-size:.68rem;color:var(--mut
 </div>
 <div id="app"><div class="loading"><div class="spin"></div><br>Carregando placar...</div></div>
 <script>
+// Tabela oficial FIFA — fonte: trivela.com.br / FIFA.com (horário de Brasília)
 const JOGOS=[
-  {id:"A1",g:"A",home:"México",away:"Tchéquia",hf:"🇲🇽",af:"🇨🇿",dt:"11 Jun"},
-  {id:"A2",g:"A",home:"Coreia do Sul",away:"África do Sul",hf:"🇰🇷",af:"🇿🇦",dt:"11 Jun"},
-  {id:"A3",g:"A",home:"México",away:"África do Sul",hf:"🇲🇽",af:"🇿🇦",dt:"15 Jun"},
-  {id:"A4",g:"A",home:"Coreia do Sul",away:"Tchéquia",hf:"🇰🇷",af:"🇨🇿",dt:"15 Jun"},
-  {id:"A5",g:"A",home:"México",away:"Coreia do Sul",hf:"🇲🇽",af:"🇰🇷",dt:"19 Jun"},
-  {id:"A6",g:"A",home:"Tchéquia",away:"África do Sul",hf:"🇨🇿",af:"🇿🇦",dt:"19 Jun"},
-  {id:"B1",g:"B",home:"Canadá",away:"Qatar",hf:"🇨🇦",af:"🇶🇦",dt:"12 Jun"},
-  {id:"B2",g:"B",home:"Bósnia",away:"Suíça",hf:"🇧🇦",af:"🇨🇭",dt:"12 Jun"},
-  {id:"B3",g:"B",home:"Canadá",away:"Bósnia",hf:"🇨🇦",af:"🇧🇦",dt:"16 Jun"},
-  {id:"B4",g:"B",home:"Suíça",away:"Qatar",hf:"🇨🇭",af:"🇶🇦",dt:"16 Jun"},
-  {id:"B5",g:"B",home:"Suíça",away:"Canadá",hf:"🇨🇭",af:"🇨🇦",dt:"20 Jun"},
-  {id:"B6",g:"B",home:"Qatar",away:"Bósnia",hf:"🇶🇦",af:"🇧🇦",dt:"20 Jun"},
-  {id:"C1",g:"C",home:"Brasil",away:"Haiti",hf:"🇧🇷",af:"🇭🇹",dt:"12 Jun"},
-  {id:"C2",g:"C",home:"Marrocos",away:"Escócia",hf:"🇲🇦",af:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",dt:"12 Jun"},
-  {id:"C3",g:"C",home:"Brasil",away:"Marrocos",hf:"🇧🇷",af:"🇲🇦",dt:"16 Jun"},
-  {id:"C4",g:"C",home:"Escócia",away:"Haiti",hf:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",af:"🇭🇹",dt:"16 Jun"},
-  {id:"C5",g:"C",home:"Brasil",away:"Escócia",hf:"🇧🇷",af:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",dt:"20 Jun"},
-  {id:"C6",g:"C",home:"Marrocos",away:"Haiti",hf:"🇲🇦",af:"🇭🇹",dt:"20 Jun"},
-  {id:"D1",g:"D",home:"EUA",away:"Turquia",hf:"🇺🇸",af:"🇹🇷",dt:"13 Jun"},
-  {id:"D2",g:"D",home:"Austrália",away:"Paraguai",hf:"🇦🇺",af:"🇵🇾",dt:"13 Jun"},
-  {id:"D3",g:"D",home:"EUA",away:"Austrália",hf:"🇺🇸",af:"🇦🇺",dt:"17 Jun"},
-  {id:"D4",g:"D",home:"Paraguai",away:"Turquia",hf:"🇵🇾",af:"🇹🇷",dt:"17 Jun"},
-  {id:"D5",g:"D",home:"EUA",away:"Paraguai",hf:"🇺🇸",af:"🇵🇾",dt:"21 Jun"},
-  {id:"D6",g:"D",home:"Turquia",away:"Austrália",hf:"🇹🇷",af:"🇦🇺",dt:"21 Jun"},
-  {id:"E1",g:"E",home:"Alemanha",away:"Equador",hf:"🇩🇪",af:"🇪🇨",dt:"13 Jun"},
-  {id:"E2",g:"E",home:"Curaçao",away:"Costa do Marfim",hf:"🇨🇼",af:"🇨🇮",dt:"13 Jun"},
-  {id:"E3",g:"E",home:"Alemanha",away:"Curaçao",hf:"🇩🇪",af:"🇨🇼",dt:"17 Jun"},
-  {id:"E4",g:"E",home:"Costa do Marfim",away:"Equador",hf:"🇨🇮",af:"🇪🇨",dt:"17 Jun"},
-  {id:"E5",g:"E",home:"Alemanha",away:"Costa do Marfim",hf:"🇩🇪",af:"🇨🇮",dt:"21 Jun"},
-  {id:"E6",g:"E",home:"Equador",away:"Curaçao",hf:"🇪🇨",af:"🇨🇼",dt:"21 Jun"},
-  {id:"F1",g:"F",home:"Holanda",away:"Tunísia",hf:"🇳🇱",af:"🇹🇳",dt:"14 Jun"},
-  {id:"F2",g:"F",home:"Japão",away:"Suécia",hf:"🇯🇵",af:"🇸🇪",dt:"14 Jun"},
-  {id:"F3",g:"F",home:"Holanda",away:"Japão",hf:"🇳🇱",af:"🇯🇵",dt:"18 Jun"},
-  {id:"F4",g:"F",home:"Suécia",away:"Tunísia",hf:"🇸🇪",af:"🇹🇳",dt:"18 Jun"},
-  {id:"F5",g:"F",home:"Holanda",away:"Suécia",hf:"🇳🇱",af:"🇸🇪",dt:"22 Jun"},
-  {id:"F6",g:"F",home:"Tunísia",away:"Japão",hf:"🇹🇳",af:"🇯🇵",dt:"22 Jun"},
-  {id:"G1",g:"G",home:"Bélgica",away:"Irã",hf:"🇧🇪",af:"🇮🇷",dt:"14 Jun"},
-  {id:"G2",g:"G",home:"Egito",away:"Nova Zelândia",hf:"🇪🇬",af:"🇳🇿",dt:"14 Jun"},
-  {id:"G3",g:"G",home:"Bélgica",away:"Egito",hf:"🇧🇪",af:"🇪🇬",dt:"18 Jun"},
-  {id:"G4",g:"G",home:"Nova Zelândia",away:"Irã",hf:"🇳🇿",af:"🇮🇷",dt:"18 Jun"},
-  {id:"G5",g:"G",home:"Bélgica",away:"Nova Zelândia",hf:"🇧🇪",af:"🇳🇿",dt:"22 Jun"},
-  {id:"G6",g:"G",home:"Irã",away:"Egito",hf:"🇮🇷",af:"🇪🇬",dt:"22 Jun"},
-  {id:"H1",g:"H",home:"Espanha",away:"Arábia Saudita",hf:"🇪🇸",af:"🇸🇦",dt:"15 Jun"},
-  {id:"H2",g:"H",home:"Cabo Verde",away:"Uruguai",hf:"🇨🇻",af:"🇺🇾",dt:"15 Jun"},
-  {id:"H3",g:"H",home:"Espanha",away:"Cabo Verde",hf:"🇪🇸",af:"🇨🇻",dt:"19 Jun"},
-  {id:"H4",g:"H",home:"Uruguai",away:"Arábia Saudita",hf:"🇺🇾",af:"🇸🇦",dt:"19 Jun"},
-  {id:"H5",g:"H",home:"Espanha",away:"Uruguai",hf:"🇪🇸",af:"🇺🇾",dt:"23 Jun"},
-  {id:"H6",g:"H",home:"Arábia Saudita",away:"Cabo Verde",hf:"🇸🇦",af:"🇨🇻",dt:"23 Jun"},
-  {id:"I1",g:"I",home:"França",away:"Iraque",hf:"🇫🇷",af:"🇮🇶",dt:"15 Jun"},
-  {id:"I2",g:"I",home:"Senegal",away:"Noruega",hf:"🇸🇳",af:"🇳🇴",dt:"15 Jun"},
-  {id:"I3",g:"I",home:"França",away:"Senegal",hf:"🇫🇷",af:"🇸🇳",dt:"19 Jun"},
-  {id:"I4",g:"I",home:"Noruega",away:"Iraque",hf:"🇳🇴",af:"🇮🇶",dt:"19 Jun"},
-  {id:"I5",g:"I",home:"França",away:"Noruega",hf:"🇫🇷",af:"🇳🇴",dt:"23 Jun"},
-  {id:"I6",g:"I",home:"Iraque",away:"Senegal",hf:"🇮🇶",af:"🇸🇳",dt:"23 Jun"},
-  {id:"J1",g:"J",home:"Argentina",away:"Argélia",hf:"🇦🇷",af:"🇩🇿",dt:"16 Jun"},
-  {id:"J2",g:"J",home:"Áustria",away:"Jordânia",hf:"🇦🇹",af:"🇯🇴",dt:"16 Jun"},
-  {id:"J3",g:"J",home:"Argentina",away:"Áustria",hf:"🇦🇷",af:"🇦🇹",dt:"20 Jun"},
-  {id:"J4",g:"J",home:"Jordânia",away:"Argélia",hf:"🇯🇴",af:"🇩🇿",dt:"20 Jun"},
-  {id:"J5",g:"J",home:"Argentina",away:"Jordânia",hf:"🇦🇷",af:"🇯🇴",dt:"24 Jun"},
-  {id:"J6",g:"J",home:"Argélia",away:"Áustria",hf:"🇩🇿",af:"🇦🇹",dt:"24 Jun"},
-  {id:"K1",g:"K",home:"Portugal",away:"Uzbequistão",hf:"🇵🇹",af:"🇺🇿",dt:"16 Jun"},
-  {id:"K2",g:"K",home:"Congo RD",away:"Colômbia",hf:"🇨🇩",af:"🇨🇴",dt:"16 Jun"},
-  {id:"K3",g:"K",home:"Portugal",away:"Congo RD",hf:"🇵🇹",af:"🇨🇩",dt:"20 Jun"},
-  {id:"K4",g:"K",home:"Colômbia",away:"Uzbequistão",hf:"🇨🇴",af:"🇺🇿",dt:"20 Jun"},
-  {id:"K5",g:"K",home:"Portugal",away:"Colômbia",hf:"🇵🇹",af:"🇨🇴",dt:"24 Jun"},
-  {id:"K6",g:"K",home:"Uzbequistão",away:"Congo RD",hf:"🇺🇿",af:"🇨🇩",dt:"24 Jun"},
-  {id:"L1",g:"L",home:"Inglaterra",away:"Gana",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇬🇭",dt:"17 Jun"},
-  {id:"L2",g:"L",home:"Croácia",away:"Panamá",hf:"🇭🇷",af:"🇵🇦",dt:"17 Jun"},
-  {id:"L3",g:"L",home:"Inglaterra",away:"Croácia",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇭🇷",dt:"21 Jun"},
-  {id:"L4",g:"L",home:"Panamá",away:"Gana",hf:"🇵🇦",af:"🇬🇭",dt:"21 Jun"},
-  {id:"L5",g:"L",home:"Inglaterra",away:"Panamá",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇵🇦",dt:"25 Jun"},
-  {id:"L6",g:"L",home:"Gana",away:"Croácia",hf:"🇬🇭",af:"🇭🇷",dt:"25 Jun"},
+  // GRUPO A
+  {id:"A1",g:"A",home:"México",away:"África do Sul",hf:"🇲🇽",af:"🇿🇦",dt:"11/Jun 16h"},
+  {id:"A2",g:"A",home:"Coreia do Sul",away:"Tchéquia",hf:"🇰🇷",af:"🇨🇿",dt:"11/Jun 23h"},
+  {id:"A3",g:"A",home:"Tchéquia",away:"África do Sul",hf:"🇨🇿",af:"🇿🇦",dt:"18/Jun 13h"},
+  {id:"A4",g:"A",home:"México",away:"Coreia do Sul",hf:"🇲🇽",af:"🇰🇷",dt:"18/Jun 22h"},
+  {id:"A5",g:"A",home:"Tchéquia",away:"México",hf:"🇨🇿",af:"🇲🇽",dt:"24/Jun 22h"},
+  {id:"A6",g:"A",home:"África do Sul",away:"Coreia do Sul",hf:"🇿🇦",af:"🇰🇷",dt:"24/Jun 22h"},
+  // GRUPO B
+  {id:"B1",g:"B",home:"Canadá",away:"Bósnia",hf:"🇨🇦",af:"🇧🇦",dt:"12/Jun 16h"},
+  {id:"B2",g:"B",home:"Qatar",away:"Suíça",hf:"🇶🇦",af:"🇨🇭",dt:"13/Jun 16h"},
+  {id:"B3",g:"B",home:"Suíça",away:"Bósnia",hf:"🇨🇭",af:"🇧🇦",dt:"18/Jun 16h"},
+  {id:"B4",g:"B",home:"Canadá",away:"Qatar",hf:"🇨🇦",af:"🇶🇦",dt:"18/Jun 19h"},
+  {id:"B5",g:"B",home:"Suíça",away:"Canadá",hf:"🇨🇭",af:"🇨🇦",dt:"24/Jun 16h"},
+  {id:"B6",g:"B",home:"Bósnia",away:"Qatar",hf:"🇧🇦",af:"🇶🇦",dt:"24/Jun 16h"},
+  // GRUPO C
+  {id:"C1",g:"C",home:"Brasil",away:"Marrocos",hf:"🇧🇷",af:"🇲🇦",dt:"13/Jun 19h"},
+  {id:"C2",g:"C",home:"Haiti",away:"Escócia",hf:"🇭🇹",af:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",dt:"13/Jun 22h"},
+  {id:"C3",g:"C",home:"Escócia",away:"Marrocos",hf:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",af:"🇲🇦",dt:"19/Jun 19h"},
+  {id:"C4",g:"C",home:"Brasil",away:"Haiti",hf:"🇧🇷",af:"🇭🇹",dt:"19/Jun 21h30"},
+  {id:"C5",g:"C",home:"Escócia",away:"Brasil",hf:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",af:"🇧🇷",dt:"24/Jun 19h"},
+  {id:"C6",g:"C",home:"Marrocos",away:"Haiti",hf:"🇲🇦",af:"🇭🇹",dt:"24/Jun 19h"},
+  // GRUPO D
+  {id:"D1",g:"D",home:"EUA",away:"Paraguai",hf:"🇺🇸",af:"🇵🇾",dt:"12/Jun 22h"},
+  {id:"D2",g:"D",home:"Austrália",away:"Turquia",hf:"🇦🇺",af:"🇹🇷",dt:"14/Jun 01h"},
+  {id:"D3",g:"D",home:"EUA",away:"Austrália",hf:"🇺🇸",af:"🇦🇺",dt:"19/Jun 16h"},
+  {id:"D4",g:"D",home:"Turquia",away:"Paraguai",hf:"🇹🇷",af:"🇵🇾",dt:"20/Jun 00h"},
+  {id:"D5",g:"D",home:"Turquia",away:"EUA",hf:"🇹🇷",af:"🇺🇸",dt:"25/Jun 23h"},
+  {id:"D6",g:"D",home:"Paraguai",away:"Austrália",hf:"🇵🇾",af:"🇦🇺",dt:"25/Jun 23h"},
+  // GRUPO E
+  {id:"E1",g:"E",home:"Alemanha",away:"Curaçao",hf:"🇩🇪",af:"🇨🇼",dt:"14/Jun 14h"},
+  {id:"E2",g:"E",home:"Costa do Marfim",away:"Equador",hf:"🇨🇮",af:"🇪🇨",dt:"14/Jun 20h"},
+  {id:"E3",g:"E",home:"Alemanha",away:"Costa do Marfim",hf:"🇩🇪",af:"🇨🇮",dt:"20/Jun 17h"},
+  {id:"E4",g:"E",home:"Equador",away:"Curaçao",hf:"🇪🇨",af:"🇨🇼",dt:"20/Jun 21h"},
+  {id:"E5",g:"E",home:"Equador",away:"Alemanha",hf:"🇪🇨",af:"🇩🇪",dt:"25/Jun 17h"},
+  {id:"E6",g:"E",home:"Curaçao",away:"Costa do Marfim",hf:"🇨🇼",af:"🇨🇮",dt:"25/Jun 17h"},
+  // GRUPO F
+  {id:"F1",g:"F",home:"Holanda",away:"Japão",hf:"🇳🇱",af:"🇯🇵",dt:"14/Jun 17h"},
+  {id:"F2",g:"F",home:"Suécia",away:"Tunísia",hf:"🇸🇪",af:"🇹🇳",dt:"14/Jun 23h"},
+  {id:"F3",g:"F",home:"Holanda",away:"Suécia",hf:"🇳🇱",af:"🇸🇪",dt:"20/Jun 14h"},
+  {id:"F4",g:"F",home:"Tunísia",away:"Japão",hf:"🇹🇳",af:"🇯🇵",dt:"21/Jun 01h"},
+  {id:"F5",g:"F",home:"Japão",away:"Suécia",hf:"🇯🇵",af:"🇸🇪",dt:"25/Jun 20h"},
+  {id:"F6",g:"F",home:"Tunísia",away:"Holanda",hf:"🇹🇳",af:"🇳🇱",dt:"25/Jun 20h"},
+  // GRUPO G
+  {id:"G1",g:"G",home:"Bélgica",away:"Egito",hf:"🇧🇪",af:"🇪🇬",dt:"15/Jun 16h"},
+  {id:"G2",g:"G",home:"Irã",away:"Nova Zelândia",hf:"🇮🇷",af:"🇳🇿",dt:"15/Jun 22h"},
+  {id:"G3",g:"G",home:"Bélgica",away:"Irã",hf:"🇧🇪",af:"🇮🇷",dt:"21/Jun 16h"},
+  {id:"G4",g:"G",home:"Nova Zelândia",away:"Egito",hf:"🇳🇿",af:"🇪🇬",dt:"21/Jun 22h"},
+  {id:"G5",g:"G",home:"Egito",away:"Irã",hf:"🇪🇬",af:"🇮🇷",dt:"27/Jun 00h"},
+  {id:"G6",g:"G",home:"Nova Zelândia",away:"Bélgica",hf:"🇳🇿",af:"🇧🇪",dt:"27/Jun 00h"},
+  // GRUPO H
+  {id:"H1",g:"H",home:"Espanha",away:"Cabo Verde",hf:"🇪🇸",af:"🇨🇻",dt:"15/Jun 13h"},
+  {id:"H2",g:"H",home:"Arábia Saudita",away:"Uruguai",hf:"🇸🇦",af:"🇺🇾",dt:"15/Jun 19h"},
+  {id:"H3",g:"H",home:"Espanha",away:"Arábia Saudita",hf:"🇪🇸",af:"🇸🇦",dt:"21/Jun 13h"},
+  {id:"H4",g:"H",home:"Uruguai",away:"Cabo Verde",hf:"🇺🇾",af:"🇨🇻",dt:"21/Jun 19h"},
+  {id:"H5",g:"H",home:"Uruguai",away:"Espanha",hf:"🇺🇾",af:"🇪🇸",dt:"26/Jun 21h"},
+  {id:"H6",g:"H",home:"Cabo Verde",away:"Arábia Saudita",hf:"🇨🇻",af:"🇸🇦",dt:"26/Jun 21h"},
+  // GRUPO I
+  {id:"I1",g:"I",home:"França",away:"Senegal",hf:"🇫🇷",af:"🇸🇳",dt:"16/Jun 16h"},
+  {id:"I2",g:"I",home:"Iraque",away:"Noruega",hf:"🇮🇶",af:"🇳🇴",dt:"16/Jun 19h"},
+  {id:"I3",g:"I",home:"França",away:"Iraque",hf:"🇫🇷",af:"🇮🇶",dt:"22/Jun 18h"},
+  {id:"I4",g:"I",home:"Noruega",away:"Senegal",hf:"🇳🇴",af:"🇸🇳",dt:"22/Jun 21h"},
+  {id:"I5",g:"I",home:"Noruega",away:"França",hf:"🇳🇴",af:"🇫🇷",dt:"26/Jun 16h"},
+  {id:"I6",g:"I",home:"Senegal",away:"Iraque",hf:"🇸🇳",af:"🇮🇶",dt:"26/Jun 16h"},
+  // GRUPO J
+  {id:"J1",g:"J",home:"Argentina",away:"Argélia",hf:"🇦🇷",af:"🇩🇿",dt:"16/Jun 22h"},
+  {id:"J2",g:"J",home:"Áustria",away:"Jordânia",hf:"🇦🇹",af:"🇯🇴",dt:"17/Jun 01h"},
+  {id:"J3",g:"J",home:"Argentina",away:"Áustria",hf:"🇦🇷",af:"🇦🇹",dt:"22/Jun 14h"},
+  {id:"J4",g:"J",home:"Jordânia",away:"Argélia",hf:"🇯🇴",af:"🇩🇿",dt:"23/Jun 00h"},
+  {id:"J5",g:"J",home:"Argélia",away:"Áustria",hf:"🇩🇿",af:"🇦🇹",dt:"27/Jun 23h"},
+  {id:"J6",g:"J",home:"Jordânia",away:"Argentina",hf:"🇯🇴",af:"🇦🇷",dt:"27/Jun 23h"},
+  // GRUPO K
+  {id:"K1",g:"K",home:"Portugal",away:"Congo RD",hf:"🇵🇹",af:"🇨🇩",dt:"17/Jun 14h"},
+  {id:"K2",g:"K",home:"Uzbequistão",away:"Colômbia",hf:"🇺🇿",af:"🇨🇴",dt:"17/Jun 23h"},
+  {id:"K3",g:"K",home:"Portugal",away:"Uzbequistão",hf:"🇵🇹",af:"🇺🇿",dt:"23/Jun 14h"},
+  {id:"K4",g:"K",home:"Colômbia",away:"Congo RD",hf:"🇨🇴",af:"🇨🇩",dt:"23/Jun 23h"},
+  {id:"K5",g:"K",home:"Colômbia",away:"Portugal",hf:"🇨🇴",af:"🇵🇹",dt:"27/Jun 20h30"},
+  {id:"K6",g:"K",home:"Congo RD",away:"Uzbequistão",hf:"🇨🇩",af:"🇺🇿",dt:"27/Jun 20h30"},
+  // GRUPO L
+  {id:"L1",g:"L",home:"Inglaterra",away:"Croácia",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇭🇷",dt:"17/Jun 17h"},
+  {id:"L2",g:"L",home:"Gana",away:"Panamá",hf:"🇬🇭",af:"🇵🇦",dt:"17/Jun 20h"},
+  {id:"L3",g:"L",home:"Inglaterra",away:"Gana",hf:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",af:"🇬🇭",dt:"23/Jun 17h"},
+  {id:"L4",g:"L",home:"Panamá",away:"Croácia",hf:"🇵🇦",af:"🇭🇷",dt:"23/Jun 20h"},
+  {id:"L5",g:"L",home:"Panamá",away:"Inglaterra",hf:"🇵🇦",af:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",dt:"27/Jun 18h"},
+  {id:"L6",g:"L",home:"Croácia",away:"Gana",hf:"🇭🇷",af:"🇬🇭",dt:"27/Jun 18h"},
 ];
 const GS=["A","B","C","D","E","F","G","H","I","J","K","L"];
 function oc(h,a){return h>a?"H":h<a?"A":"D"}
@@ -144,7 +152,8 @@ function pcls(pk,res){
 }
 async function init(){
   let data;
-  try{const r=await fetch("/api/data");data=await r.json();}catch{document.getElementById("app").innerHTML='<div class="loading">Erro ao carregar.</div>';return;}
+  try{const r=await fetch("/api/data");data=await r.json();}
+  catch{document.getElementById("app").innerHTML='<div class="loading">Erro ao carregar.</div>';return;}
   const{picks={},champion={},results={},scores={},updatedAt}=data;
   if(updatedAt){
     const d=new Date(updatedAt);
