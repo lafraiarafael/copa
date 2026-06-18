@@ -665,14 +665,26 @@
     "J2": {
       "h": 3,
       "a": 1
+    },
+    "K1": {
+      "h": 1,
+      "a": 1
+    },
+    "L1": {
+      "h": 4,
+      "a": 2
+    },
+    "L2": {
+      "h": 1,
+      "a": 0
     }
   },
   "scores": {
-    "renata": 19,
+    "renata": 20,
     "rafael": 21
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-17T09:00:00.000Z",
+  "updatedAt": "2026-06-18T09:00:00.000Z",
   "_matches": [
     {
       "id": "A1",
