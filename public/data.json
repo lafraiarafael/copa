@@ -670,6 +670,10 @@
       "h": 1,
       "a": 1
     },
+    "K2": {
+      "h": 1,
+      "a": 3
+    },
     "L1": {
       "h": 4,
       "a": 2
@@ -680,8 +684,8 @@
     }
   },
   "scores": {
-    "renata": 20,
-    "rafael": 21
+    "renata": 21,
+    "rafael": 22
   },
   "actualChampion": null,
   "updatedAt": "2026-06-18T09:00:00.000Z",
