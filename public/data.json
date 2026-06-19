@@ -693,6 +693,10 @@
     "L2": {
       "h": 1,
       "a": 0
+    },
+    "A4": {
+      "h": 1,
+      "a": 0
     }
   },
   "scores": {
@@ -700,7 +704,7 @@
     "rafael": 23
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-19T09:00:00.000Z",
+  "updatedAt": "2026-06-19T10:00:00.000Z",
   "_matches": [
     {
       "id": "A1",
