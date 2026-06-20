@@ -709,14 +709,18 @@
     "C4": {
       "h": 3,
       "a": 0
+    },
+    "D4": {
+      "h": 0,
+      "a": 1
     }
   },
   "scores": {
     "renata": 25,
-    "rafael": 26
+    "rafael": 27
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-20T03:00:00.000Z",
+  "updatedAt": "2026-06-20T11:58:00.000Z",
   "_matches": [
     {
       "id": "A1",
