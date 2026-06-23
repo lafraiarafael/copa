@@ -761,14 +761,22 @@
     "J4": {
       "h": 1,
       "a": 2
+    },
+    "K3": {
+      "h": 5,
+      "a": 0
+    },
+    "L3": {
+      "h": 0,
+      "a": 0
     }
   },
   "scores": {
-    "renata": 33,
-    "rafael": 34
+    "renata": 34,
+    "rafael": 35
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-23T14:01:00.000Z",
+  "updatedAt": "2026-06-23T22:35:00.000Z",
   "_matches": [
     {
       "id": "A1",
