@@ -500,8 +500,8 @@
         "a": 3
       },
       "I5": {
-        "h": 5,
-        "a": 1
+        "h": 1,
+        "a": 5
       },
       "I6": {
         "h": 1,
@@ -837,7 +837,7 @@
   },
   "scores": {
     "renata": 43,
-    "rafael": 44
+    "rafael": 45
   },
   "actualChampion": null,
   "updatedAt": "2026-06-26T22:21:00.000Z",
