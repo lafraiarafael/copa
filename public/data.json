@@ -865,14 +865,22 @@
     "L6": {
       "h": 2,
       "a": 1
+    },
+    "J5": {
+      "h": 3,
+      "a": 3
+    },
+    "J6": {
+      "h": 1,
+      "a": 3
     }
   },
   "scores": {
-    "renata": 52,
-    "rafael": 51
+    "renata": 53,
+    "rafael": 52
   },
   "actualChampion": null,
-  "updatedAt": "2026-06-28T03:56:00.000Z",
+  "updatedAt": "2026-06-28T11:00:00.000Z",
   "_matches": [
     {
       "id": "A1",
